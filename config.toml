@@ -1,4 +1,4 @@
-baseURL = "https://github.io/data-handyman/"
+baseURL = "data-handyman.com"
 languageCode = "en-us"
 title = "Data Handyman"
 theme = "minimal"
