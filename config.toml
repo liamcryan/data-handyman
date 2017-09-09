@@ -2,7 +2,7 @@ baseURL = "https://github.io/data-handyman/"
 languageCode = "en-us"
 title = "Data Handyman"
 theme = "minimal"
-publishDir = "docs"
+# publishDir = "docs"
 # disqusShortname = "username" # delete this to disable disqus comments
 
 [params]

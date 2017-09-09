@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Form on Data Handyman</title>
+    <link>https://github.io/data-handyman/tags/form/</link>
+    <description>Recent content in Form on Data Handyman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://github.io/data-handyman/tags/form/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Formspree?</title>
+      <link>https://github.io/data-handyman/post/formspree/</link>
+      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.io/data-handyman/post/formspree/</guid>
+      <description>Hello and welcome to data-handyman.com I am very excited to be getting this site online! There are a lot of things that I am learning through this process, and one of them is creating a form. Creating a form itself isn&amp;rsquo;t too complicated or interesting to me. What interests me about creating forms is the action taken once you press the submit button. Really, the amount of things that can be done with the data that you have filled in the form is endless.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Formspree?</title>
+        <style>
+
+    html body {
+        font-family: Raleway, sans-serif;
+        background-color: beige;
+    }
+
+    :root {
+        --accent: brown;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="../data-handyman/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.26" />
+        
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Formspree?</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/data-handyman/">Home</a></li>
+                            
+                                <li><a href="/data-handyman/post/">Posts</a></li>
+                            
+                                <li><a href="/data-handyman/contact/">Contact</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:liam@data-handyman.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/liamcryan/"><i class="fa fa-github"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/data-handyman/post/formspree/">Formspree?</a></h4>
+    
+    
+    <h5>September 8, 2017</h5>
+    
+
+     <kbd class="item-tag">data</kbd>  <kbd class="item-tag">formspree</kbd>  <kbd class="item-tag">form</kbd> 
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h2 id="hello-and-welcome-to-data-handyman-com">Hello and welcome to data-handyman.com</h2>
+
+<p>I am very excited to be getting this site online!  There are a lot of things
+that I am learning through this process, and one of them is creating a form.
+Creating a form itself isn&rsquo;t too complicated or interesting to me.  What
+interests me about creating forms is the action taken once you press the submit
+button.  Really, the amount of things that can be done with the data that you
+have filled in the form is endless.</p>
+
+<p>I want to be able to organize and to keep track of who is trying to
+contact me.  Maybe the action can be to send the form data to a database or a
+file?  That&rsquo;s one solution, but only part of it.  I still need a way to easily
+respond to someone.  A solution that addresses both of these items involves a
+form action that emails and organizes the form data into a database or
+file.  Oh, by the way did I mention I don&rsquo;t want to spend any money?</p>
+
+<p>I want to talk about a service that addresses part of the above scenario.<br />
+The service is called Formspree if you haven&rsquo;t guessed, and it will enable
+a form to send data to my email address.  It is important to me to be able to
+organize this data into a database or file, and we will go over how that will
+work another time.</p>
+
+<h3 id="diving-into-formspree">Diving into Formspree</h3>
+
+<p>Why Formspree?  Well, aside from it being high in my google search, it seemed
+pretty easy to get started.  Google is one of my favorites.  Google is so
+awesome, thanks for letting me search for stuff.  But Google is not Formspree,
+so let me get back on topic.</p>
+
+<p>I went to this part of Formspree&rsquo;s site to do a quick test:</p>
+
+<ul>
+<li><a href="http://testformspree.com/">http://testformspree.com/</a></li>
+</ul>
+
+<p>I followed the directions by editing the form then running the test and pressing
+the send button.  There is some initial set up; I think they send a
+confirmation.  I few minutes (too many) later I was able to set up a form on my
+<a href="/contact/">contact</a> page.</p>
+
+<h3 id="how-is-your-free-lunch">How is your free lunch?</h3>
+
+<p>Ok, so as I mentioned, this service is free.  It seems like I have a solution
+that was both cost effective and functions as intended.  But wait!  If you
+try to fill out the form on the contact page, you will see that it is not a
+seamless process.  What is this redirection to Formspree&rsquo;s website and
+reCAPTCHA?  reCAPTCHA?  In my case it&rsquo;s that thing you have to do before that
+thing you actually want to do. I don&rsquo;t want you to have to experience this
+redirection to Formspree.  The service isn&rsquo;t right for me.</p>
+
+<p>Maybe Formspree isn&rsquo;t exactly what I am looking for, I&rsquo;ll admit.  I can pay them
+to remove the reCAPTCHA and redirection, but yea right, I&rsquo;m a datahandyman.
+There&rsquo;s definitely a better solution that is better for you and me.</p>
+
+<p>In the future, I&rsquo;ll go through how to organize the form data that was sent to my
+email address.  Right now, I am thinking a script can parse out the information
+I want and put it in a database or a file.  I&rsquo;ll keep the Formspree form for
+now, but it will be changed, and I&rsquo;ll let you know what I come up with as an
+alternative (to Formspree&rsquo;s $9.99 a month gold plan).</p>
+
+<h3 id="until-next-time">Until next time</h3>
+
+<p>Through these posts, I want to share a little about my thought processes,
+how I think about data, and how I can help you on your data projects.  If you
+are interested in talking with me about your data related project, I would love
+for you to get in touch with me here:</p>
+
+<ul>
+<li><a href="/contact/">Contact Me</a></li>
+</ul>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            
+
+        </footer>
+
+    </body>
+
+</html>
+
