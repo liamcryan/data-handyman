@@ -1,0 +1,20 @@
+{{ partial "header" . }}
+
+<main>
+
+    <div class="intro">
+
+        <h1>{{ .Site.Title }}</h1>
+
+        <h2>{{ markdownify .Site.Params.Description }}</h2>
+
+    </div>
+    <div id="contact">
+      Need help with infrastructure? Web apps? Databases? Scripts? Analyses? Visualization?...Data?
+      <br>
+      <a href="/contact/"><b>Hire Me</b></a>
+    </div>
+
+</main>
+
+{{ partial "footer" . }}
