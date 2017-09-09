@@ -3,57 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>data-handyman.com/post/formspree/</loc>
+    <loc>http://data-handyman.com/post/formspree/</loc>
     <lastmod>2017-09-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>data-handyman.com/categories/</loc>
+    <loc>http://data-handyman.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>data-handyman.com/contact/</loc>
+    <loc>http://data-handyman.com/contact/</loc>
   </url>
   
   <url>
-    <loc>data-handyman.com/tags/data/</loc>
-    <lastmod>2017-09-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>data-handyman.com/</loc>
+    <loc>http://data-handyman.com/tags/data/</loc>
     <lastmod>2017-09-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>data-handyman.com/tags/form/</loc>
+    <loc>http://data-handyman.com/</loc>
     <lastmod>2017-09-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>data-handyman.com/tags/formspree/</loc>
+    <loc>http://data-handyman.com/tags/form/</loc>
     <lastmod>2017-09-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>data-handyman.com/post/</loc>
+    <loc>http://data-handyman.com/tags/formspree/</loc>
     <lastmod>2017-09-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>data-handyman.com/tags/</loc>
+    <loc>http://data-handyman.com/post/</loc>
     <lastmod>2017-09-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>data-handyman.com/thankyou/</loc>
+    <loc>http://data-handyman.com/tags/</loc>
+    <lastmod>2017-09-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://data-handyman.com/thankyou/</loc>
   </url>
   
 </urlset>

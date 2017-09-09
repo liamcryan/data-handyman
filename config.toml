@@ -1,4 +1,4 @@
-baseURL = "data-handyman.com"
+baseURL = "http://data-handyman.com/"
 languageCode = "en-us"
 title = "Data Handyman"
 theme = "minimal"

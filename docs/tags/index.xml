@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Data Handyman</title>
-    <link>data-handyman.com/tags/</link>
+    <link>http://data-handyman.com/tags/</link>
     <description>Recent content in Tags on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="data-handyman.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://data-handyman.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data</title>
-      <link>data-handyman.com/tags/data/</link>
+      <link>http://data-handyman.com/tags/data/</link>
       <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>data-handyman.com/tags/data/</guid>
+      <guid>http://data-handyman.com/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Form</title>
-      <link>data-handyman.com/tags/form/</link>
+      <link>http://data-handyman.com/tags/form/</link>
       <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>data-handyman.com/tags/form/</guid>
+      <guid>http://data-handyman.com/tags/form/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Formspree</title>
-      <link>data-handyman.com/tags/formspree/</link>
+      <link>http://data-handyman.com/tags/formspree/</link>
       <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>data-handyman.com/tags/formspree/</guid>
+      <guid>http://data-handyman.com/tags/formspree/</guid>
       <description></description>
     </item>
     
