@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,21 @@
     <item>
       <title>Formspree?</title>
       <link>http://data-handyman.com/post/formspree/</link>
-      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/post/formspree/</guid>
-      <description>Hello and welcome to data-handyman.com I am very excited to be getting this site online! There are a lot of things that I am learning through this process, and one of them is creating a form. Creating a form itself isn&amp;rsquo;t too complicated or interesting to me. What interests me about creating forms is the action taken once you press the submit button. Really, the amount of things that can be done with the data that you have filled in the form is endless.</description>
+      <description>Why Formspree? Creating a form itself isn&amp;rsquo;t too complicated or interesting to me. What interests me about creating forms is the &amp;lsquo;action&amp;rsquo; taken once you press the submit button. Really, the amount of things that can be done with the data that you have filled in the form is endless.
+I also want to be able to respond to the person who is contacting me. So, the &amp;lsquo;action&amp;rsquo; I am looking for the form to take is to email.</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>http://data-handyman.com/post/welcome/</link>
+      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/post/welcome/</guid>
+      <description>Hello and welcome to data-handyman.com I&amp;rsquo;m glad you came to look at my web site! The process of getting this site online has been fun and I&amp;rsquo;ve been learning some fun stuff.
+The purpose of this site is to let you know about the ways that a data handyman can help your data related projects. I want you to see how your project can benefit from topics discussed on this site, what has benefited me, and how to do more with less.</description>
     </item>
     
   </channel>

@@ -1,31 +1,24 @@
 ---
 title: "Formspree?"
-date: 2017-09-08
+date: 2017-09-10
 tags: ["data", "formspree", "form"]
 draft: false
 ---
 
-## Hello and welcome to data-handyman.com
+## Why Formspree?
 
-I am very excited to be getting this site online!  There are a lot of things
-that I am learning through this process, and one of them is creating a form.
 Creating a form itself isn't too complicated or interesting to me.  What
-interests me about creating forms is the action taken once you press the submit
+interests me about creating forms is the 'action' taken once you press the submit
 button.  Really, the amount of things that can be done with the data that you
-have filled in the form is endless.  
+have filled in the form is endless.
 
-I want to be able to organize and to keep track of who is trying to
-contact me.  Maybe the action can be to send the form data to a database or a
-file?  That's one solution, but only part of it.  I still need a way to easily
-respond to someone.  A solution that addresses both of these items involves a
-form action that emails and organizes the form data into a database or
-file.  Oh, by the way did I mention I don't want to spend any money?
+I also want to be able to respond to the person who is contacting
+me.  So, the 'action' I am looking for the form to take is to
+email.  In a later section, I want to go over organizing this data, but
+the first step is receiving it.
 
-I want to talk about a service that addresses part of the above scenario.  
-The service is called Formspree if you haven't guessed, and it will enable
-a form to send data to my email address.  It is important to me to be able to
-organize this data into a database or file, and we will go over how that will
-work another time.
+Formspree is the service I will be using to email the form's data if you haven't
+guessed already, and it will enable a form to send data to my email address.  
 
 ### Diving into Formspree
 
@@ -45,29 +38,27 @@ confirmation.  I few minutes (too many) later I was able to set up a form on my
 
 ### How is your free lunch?
 
-Ok, so as I mentioned, this service is free.  It seems like I have a solution
-that was both cost effective and functions as intended.  But wait!  If you
+Ok, so as I mentioned, this service is free.  It seems like Formspree was both
+cost effective and functioned as intended.  But wait!  If you
 try to fill out the form on the contact page, you will see that it is not a
-seamless process.  What is this redirection to Formspree's website and
-reCAPTCHA?  reCAPTCHA?  In my case it's that thing you have to do before that
-thing you actually want to do. I don't want you to have to experience this
+seamless process.  If you fill out the form on the contact page, you are
+ redirected to Formspree's website and required to check a box called a
+ reCAPTCHA.  reCAPTCHA?  I don't want you to have to experience this
 redirection to Formspree.  The service isn't right for me.
 
 Maybe Formspree isn't exactly what I am looking for, I'll admit.  I can pay them
-to remove the reCAPTCHA and redirection, but yea right, I'm a datahandyman.
-There's definitely a better solution that is better for you and me.
+to remove the reCAPTCHA and redirection, but yea right, I'm a data handyman.
+There's definitely a better solution that is better for you and me.  I'll keep
+the Formspree form for now, but it will be changed, and I'll let you know what
+I come up with as an alternative (to Formspree's $9.99 a month gold plan).
 
 In the future, I'll go through how to organize the form data that was sent to my
-email address.  Right now, I am thinking a script can parse out the information
-I want and put it in a database or a file.  I'll keep the Formspree form for
-now, but it will be changed, and I'll let you know what I come up with as an
-alternative (to Formspree's $9.99 a month gold plan).
+email address.  Right now, I am thinking a script can get to the information
+that is emailed to me and I can put it in a database or file.
 
 ### Until next time
 
-Through these posts, I want to share a little about my thought processes,
-how I think about data, and how I can help you on your data projects.  If you
-are interested in talking with me about your data related project, I would love
-for you to get in touch with me here:
+If you are interested in talking with me about your data related project, I would love
+for you to get in touch with me at my Formspree powered form here:
 
 * [Contact Me](/contact/)

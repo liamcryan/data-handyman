@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Data</title>
       <link>http://data-handyman.com/tags/data/</link>
-      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/tags/data/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Form</title>
       <link>http://data-handyman.com/tags/form/</link>
-      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/tags/form/</guid>
       <description></description>
@@ -32,9 +32,36 @@
     <item>
       <title>Formspree</title>
       <link>http://data-handyman.com/tags/formspree/</link>
-      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/tags/formspree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Handy</title>
+      <link>http://data-handyman.com/tags/handy/</link>
+      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/handy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Origin</title>
+      <link>http://data-handyman.com/tags/origin/</link>
+      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/origin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>http://data-handyman.com/tags/welcome/</link>
+      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/welcome/</guid>
       <description></description>
     </item>
     
