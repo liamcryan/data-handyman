@@ -8,7 +8,7 @@ draft: false
 <form method="POST" action="https://formspree.io/liam@data-handyman.com">
   <input type="text" name="name" placeholder="Name" />
   <input type="email" name="email" placeholder="Email" />
-  <input type="text" name="subject" value="Subject" />
+  <input type="text" name="subject" placeholder="Subject" />
   <input type="hidden" name="_next" value="/thankyou/" />
   <input type="hidden" name="_format" value="plain"/>
   <!-- <input type="hidden" name="_subject" value="New Contact" /> -->
