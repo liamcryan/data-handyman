@@ -25,17 +25,22 @@ main {
 /*home page*/
 
 .intro {
-    margin: 25vh 0;
+    margin: 20vh 0;  /* top, right */
 }
 
 .intro > h1 {
     color: #212121;
-    font-size: 12vh;
+    /*font-size: 12vh;*/
+    font-size: 12vmin;
 }
 
 .intro > h2 {
     color: #757575;
-    font-size: 3vmin;
+    font-size: 5vmin;
+}
+
+.intro > h3 {
+  font-size: 3vmin;
 }
 
 /*apply accent colour to links*/
