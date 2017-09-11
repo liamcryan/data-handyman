@@ -5,7 +5,7 @@ tags: ["welcome", "origin", "handy"]
 draft: false
 ---
 
-## Hello and welcome to data-handyman.com
+### Hello and welcome to data-handyman.com
 
 I'm glad you came to look at my web site!  The process of getting this site
 online has been fun and I've been learning some fun stuff.
@@ -15,7 +15,7 @@ data handyman can help your data related projects.  I want you to see
 how your project can benefit from topics discussed on this site, what has
 benefited me, and how to do more with less.
 
-# Origin story
+### Origin story
 
 It was six months after graduation and I found my first 'real' job as a data
 analyst.  I was greatful to have found a job I had been searching to find for
@@ -40,7 +40,7 @@ to taking minutes each day and having very little potential for errors.
 I couldn't belive how easy it was to do this web scraping, and I wanted to see
 what else was possible.
 
-# Becoming a data handyman
+### Becoming a data handyman
 
 This story is why I am a data handyman.  I want to make your life easier by
 helping you think out of the box and realizing how you can make your data
