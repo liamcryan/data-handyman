@@ -96,9 +96,18 @@ footer {
 
 img {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
+/* below this line is my custom stuff */
 input, textarea {
   width: 100%;
   padding: 5px 10px
+}
+
+#contact1 {
+  width: 75%;
+  height: auto;
+
 }

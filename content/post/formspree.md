@@ -34,7 +34,9 @@ I went to this part of Formspree's site to do a quick test:
 I followed the directions by editing the form then running the test and pressing
 the send button.  There is some initial set up; I think they send a
 confirmation.  I few minutes (too many) later I was able to set up a form on my
-[contact](/contact/) page.
+contact page.
+
+<img id="contact1" src="/img/data-handyman-contact-1.png"></img>
 
 ### How is your free lunch?
 
