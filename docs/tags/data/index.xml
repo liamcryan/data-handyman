@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on Data Handyman</title>
+    <link>http://data-handyman.com/tags/data/</link>
+    <description>Recent content in Data on Data Handyman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://data-handyman.com/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Formspree?</title>
+      <link>http://data-handyman.com/post/formspree/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/post/formspree/</guid>
+      <description>Why Formspree? Creating a form itself isn&amp;rsquo;t too complicated or interesting to me. What interests me about creating forms is the &amp;lsquo;action&amp;rsquo; taken once you press the submit button. Really, the amount of things that can be done with the data that you have filled in the form is endless.
+I also want to be able to respond to the person who is contacting me. So, the &amp;lsquo;action&amp;rsquo; I am looking for the form to take is to email.</description>
+    </item>
+    
+  </channel>
+</rss>

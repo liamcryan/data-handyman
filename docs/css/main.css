@@ -1,0 +1,113 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-top: 55px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+main {
+    margin: auto;
+    padding: 25px;
+    flex: 1 0 auto;
+    max-width: 750px;
+}
+
+/*footer*/
+
+.copyright {
+    margin: 15px 0;
+}
+
+/*home page*/
+
+.intro {
+    margin: 20vh 0;  /* top, right */
+}
+
+.intro > h1 {
+    color: #212121;
+    /*font-size: 12vh;*/
+    font-size: 12vmin;
+}
+
+.intro > h2 {
+    color: #757575;
+    font-size: 5vmin;
+}
+
+.intro > h3 {
+  font-size: 3vmin;
+}
+
+/*apply accent colour to links*/
+
+a:link, a:visited {
+    color: var(--accent);
+}
+
+a.icon:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent) !important;
+}
+
+/*paginator at bottom of list view*/
+
+.pages {
+    padding: 15px 0;
+}
+
+.pages-icon {
+    padding: 0 15px;
+}
+
+/*list item for posts and projects*/
+
+.item {
+    padding: 10px 0;
+}
+
+.item-tag {
+    background-color: var(--accent);
+}
+
+/*navigation bar icons*/
+
+.navbar-icon {
+    font-size: 125%;
+    display: inline-block !important;
+}
+
+/*coloured borders at top and bottom of the page*/
+
+.navbar.navbar-default {
+    border-top: var(--border-width) solid var(--accent);
+}
+
+footer {
+    border-bottom: var(--border-width) solid var(--accent);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* below this line is my custom stuff */
+input, textarea {
+  width: 100%;
+  padding: 5px 10px
+}
+
+#contact1 {
+  width: 75%;
+  height: auto;
+
+}
