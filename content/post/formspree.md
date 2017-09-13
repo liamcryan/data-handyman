@@ -43,10 +43,10 @@ to try it out, you need to be using a web server.
 
 ### How is your free lunch?
 
-Ok, so as I mentioned, this service is free.  But free comes with a price!  
-If you fill out the form on the contact page, you are
- redirected to Formspree's website and required to check a box and you might
- even spend a minute or two clicking on images!  See the video below :)
+Ok, so as I mentioned, this service is free.  But free comes with a price!
+If you fill out the form on the contact page, you are redirected to Formspree's
+website and required to check a box and you might even spend a minute or two
+clicking on images!  See the video below :)
 
 <center>
 <video src="/img/data-handyman-formspree-1.mp4" autoplay="true" loop="true" muted="true" height="auto" width="75%"></video>
