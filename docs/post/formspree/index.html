@@ -154,10 +154,9 @@
 
 <p>Creating a form itself isn&rsquo;t too complicated or interesting to me.  What
 interests me about creating forms is the &lsquo;action&rsquo; taken once you press the submit
-button.  Really, the amount of things that can be done with the data that you
-have filled in the form is endless.</p>
+button.</p>
 
-<p>I also want to be able to respond to the person who is contacting
+<p>I want to be able to respond to the person who is contacting
 me.  So, the &lsquo;action&rsquo; I am looking for the form to take is to
 email.  In a later section, I want to go over organizing this data, but
 the first step is receiving it.</p>
@@ -167,10 +166,9 @@ guessed already, and it will enable a form to send data to my email address.</p>
 
 <h3 id="diving-into-formspree">Diving into Formspree</h3>
 
-<p>Why Formspree?  Well, aside from it being high in my google search, it seemed
-pretty easy to get started.  Google is one of my favorites.  Google is so
-awesome, thanks for letting me search for stuff.  But Google is not Formspree,
-so let me get back on topic.</p>
+<p>Why Formspree?  Hmm.  No real reason&hellip;it was high on my google search maybe?
+I looked at Formio and thought Formspree would be quicker to get started?  I guess
+you&rsquo;ve got to start somewhere.</p>
 
 <p>I went to this part of Formspree&rsquo;s site to do a quick test:</p>
 
@@ -178,36 +176,36 @@ so let me get back on topic.</p>
 <li><a href="http://testformspree.com/">http://testformspree.com/</a></li>
 </ul>
 
-<p>I followed the directions by editing the form then running the test and pressing
-the send button.  There is some initial set up; I think they send a
-confirmation.  I few minutes (too many) later I was able to set up a form on my
-contact page.</p>
+<p>Follow the directions on the site start with their HTML to get going.
+The code below was copied from their site to get you started.  But if you want
+to try it out, you need to be using a web server.</p>
 
-<p><img id="contact1" src="/img/data-handyman-formspree-1.png"></img></p>
+<pre><code class="language-html">&lt;form method=&quot;POST&quot; action=&quot;http://formspree.io/YOUREMAILHERE&quot;&gt;
+  &lt;input type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Your email&quot;&gt;
+  &lt;textarea name=&quot;message&quot; placeholder=&quot;Your message&quot;&gt;&lt;/textarea&gt;
+  &lt;button type=&quot;submit&quot;&gt;Send&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
 
 <h3 id="how-is-your-free-lunch">How is your free lunch?</h3>
 
-<p>Ok, so as I mentioned, this service is free.  It seems like Formspree was both
-cost effective and functioned as intended.  But wait!  If you
-try to fill out the form on the contact page, you will see that it is not a
-seamless process.  If you fill out the form on the contact page, you are
- redirected to Formspree&rsquo;s website and required to check a box called a
- reCAPTCHA.  reCAPTCHA?  I don&rsquo;t want you to have to experience this
-redirection to Formspree.  The service isn&rsquo;t right for me.
-<!-- <embed src="/img/data-handyman-formspree-1.mp4" loop="true" autostart="true" height="300" width="600" /> -->
-<center>
-<video src="/img/data-handyman-formspree-1.mp4" loop="true" autostart="true" height="auto" width="75%"></video>
+<p>Ok, so as I mentioned, this service is free.  But free comes with a price!<br />
+If you fill out the form on the contact page, you are
+ redirected to Formspree&rsquo;s website and required to check a box and you might
+ even spend a minute or two clicking on images!  See the video below :)</p>
+
+<p><center>
+<video src="/img/data-handyman-formspree-1.mp4" autoplay="true" loop="true" muted="true" height="auto" width="75%"></video>
 </center></p>
 
 <p>Maybe Formspree isn&rsquo;t exactly what I am looking for, I&rsquo;ll admit.  I can pay them
-to remove the reCAPTCHA and redirection, but yea right, I&rsquo;m a data handyman.
-There&rsquo;s definitely a better solution that is better for you and me.  I&rsquo;ll keep
-the Formspree form for now, but it will be changed, and I&rsquo;ll let you know what
+to remove the reCAPTCHA and redirection, but that would defeat the purpose of
+these posts.  I&rsquo;m a data handyman, and I want you to see possibilities.  I am going
+to keep the Formspree form for now, but it will be changed, and I&rsquo;ll let you know what
 I come up with as an alternative (to Formspree&rsquo;s $9.99 a month gold plan).</p>
 
 <p>In the future, I&rsquo;ll go through how to organize the form data that was sent to my
-email address.  Right now, I am thinking a script can get to the information
-that is emailed to me and I can put it in a database or file.</p>
+email address.</p>
 
 <h3 id="until-next-time">Until next time</h3>
 

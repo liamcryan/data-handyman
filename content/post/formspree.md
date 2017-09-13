@@ -9,10 +9,9 @@ draft: false
 
 Creating a form itself isn't too complicated or interesting to me.  What
 interests me about creating forms is the 'action' taken once you press the submit
-button.  Really, the amount of things that can be done with the data that you
-have filled in the form is endless.
+button.
 
-I also want to be able to respond to the person who is contacting
+I want to be able to respond to the person who is contacting
 me.  So, the 'action' I am looking for the form to take is to
 email.  In a later section, I want to go over organizing this data, but
 the first step is receiving it.
@@ -22,45 +21,45 @@ guessed already, and it will enable a form to send data to my email address.
 
 ### Diving into Formspree
 
-Why Formspree?  Well, aside from it being high in my google search, it seemed
-pretty easy to get started.  Google is one of my favorites.  Google is so
-awesome, thanks for letting me search for stuff.  But Google is not Formspree,
-so let me get back on topic.
+Why Formspree?  Hmm.  No real reason...it was high on my google search maybe?
+I looked at Formio and thought Formspree would be quicker to get started?  I guess
+you've got to start somewhere.
 
 I went to this part of Formspree's site to do a quick test:
 
 * [http://testformspree.com/](http://testformspree.com/)
 
-I followed the directions by editing the form then running the test and pressing
-the send button.  There is some initial set up; I think they send a
-confirmation.  I few minutes (too many) later I was able to set up a form on my
-contact page.
+Follow the directions on the site start with their HTML to get going.
+The code below was copied from their site to get you started.  But if you want
+to try it out, you need to be using a web server.
 
-<img id="contact1" src="/img/data-handyman-formspree-1.png"></img>
+```html
+<form method="POST" action="http://formspree.io/YOUREMAILHERE">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
+```
 
 ### How is your free lunch?
 
-Ok, so as I mentioned, this service is free.  It seems like Formspree was both
-cost effective and functioned as intended.  But wait!  If you
-try to fill out the form on the contact page, you will see that it is not a
-seamless process.  If you fill out the form on the contact page, you are
- redirected to Formspree's website and required to check a box called a
- reCAPTCHA.  reCAPTCHA?  I don't want you to have to experience this
-redirection to Formspree.  The service isn't right for me.
-<!-- <embed src="/img/data-handyman-formspree-1.mp4" loop="true" autostart="true" height="300" width="600" /> -->
+Ok, so as I mentioned, this service is free.  But free comes with a price!  
+If you fill out the form on the contact page, you are
+ redirected to Formspree's website and required to check a box and you might
+ even spend a minute or two clicking on images!  See the video below :)
+
 <center>
-<video src="/img/data-handyman-formspree-1.mp4" loop="true" autostart="true" height="auto" width="75%"></video>
+<video src="/img/data-handyman-formspree-1.mp4" autoplay="true" loop="true" muted="true" height="auto" width="75%"></video>
 </center>
 
 Maybe Formspree isn't exactly what I am looking for, I'll admit.  I can pay them
-to remove the reCAPTCHA and redirection, but yea right, I'm a data handyman.
-There's definitely a better solution that is better for you and me.  I'll keep
-the Formspree form for now, but it will be changed, and I'll let you know what
+to remove the reCAPTCHA and redirection, but that would defeat the purpose of
+these posts.  I'm a data handyman, and I want you to see possibilities.  I am going
+to keep the Formspree form for now, but it will be changed, and I'll let you know what
 I come up with as an alternative (to Formspree's $9.99 a month gold plan).
 
 In the future, I'll go through how to organize the form data that was sent to my
-email address.  Right now, I am thinking a script can get to the information
-that is emailed to me and I can put it in a database or file.
+email address.
 
 ### Until next time
 
