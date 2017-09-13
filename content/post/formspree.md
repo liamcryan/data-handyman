@@ -36,7 +36,7 @@ the send button.  There is some initial set up; I think they send a
 confirmation.  I few minutes (too many) later I was able to set up a form on my
 contact page.
 
-<img id="contact1" src="/img/data-handyman-contact-1.png"></img>
+<img id="contact1" src="/img/data-handyman-formspree-1.png"></img>
 
 ### How is your free lunch?
 
@@ -47,6 +47,10 @@ seamless process.  If you fill out the form on the contact page, you are
  redirected to Formspree's website and required to check a box called a
  reCAPTCHA.  reCAPTCHA?  I don't want you to have to experience this
 redirection to Formspree.  The service isn't right for me.
+<!-- <embed src="/img/data-handyman-formspree-1.mp4" loop="true" autostart="true" height="300" width="600" /> -->
+<center>
+<video src="/img/data-handyman-formspree-1.mp4" loop="true" autostart="true" height="auto" width="75%"></video>
+</center>
 
 Maybe Formspree isn't exactly what I am looking for, I'll admit.  I can pay them
 to remove the reCAPTCHA and redirection, but yea right, I'm a data handyman.
