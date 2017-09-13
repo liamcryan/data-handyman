@@ -19,10 +19,17 @@
 
     {{ if and .Site.DisqusShortname (not .Params.disableComments) }}
 
+        {{ if eq (.RelPermalink) ("/contact/") }}
+
+        {{ else if eq (.RelPermalink) ("/thankyou/") }}
+
+        {{ else }}
+        
         <h4 class="page-header">Comments</h4>
 
         {{ template "_internal/disqus.html" . }}
 
+        {{ end }}
     {{ end }}
 
 </main>
