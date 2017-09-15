@@ -34,7 +34,9 @@ m.login("data.handyman.01@gmail.com", "mypassword1234")
 
 Here is the error I received:
 ```
-imaplib.IMAP4.error: b'[ALERT] Please log in via your web browser: https://support.google.com/mail/accounts/answer/78754 (Failure)'
+imaplib.IMAP4.error: 
+b'[ALERT] Please log in via your web browser:
+https://support.google.com/mail/accounts/answer/78754 (Failure)'
 ```
 
 ### Use an App Password or Allow Less Secure Apps
