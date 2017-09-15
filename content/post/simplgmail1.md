@@ -6,7 +6,7 @@ draft: false
 ---
 
 
-## Interacting with Gmail via Python
+## Gmail and Python
 
 In the [last post](/post/formspree/) I mentioned that I wanted to organize the data
 received from the contact form.  If you don't remember, the important thing to know

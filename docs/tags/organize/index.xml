@@ -17,7 +17,7 @@
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/post/simplgmail1/</guid>
-      <description>Interacting with Gmail via Python In the last post I mentioned that I wanted to organize the data received from the contact form. If you don&amp;rsquo;t remember, the important thing to know is that the form on my Contact page is sent to my Gmail account via a service called Formspree.
+      <description>Gmail and Python In the last post I mentioned that I wanted to organize the data received from the contact form. If you don&amp;rsquo;t remember, the important thing to know is that the form on my Contact page is sent to my Gmail account via a service called Formspree.
 To do this automatically, I will use Python, my favorite programming language. Getting Python to interact with Gmail was not too difficut.</description>
     </item>
     
