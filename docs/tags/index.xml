@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Data Handyman</title>
+    <link>http://data-handyman.com/tags/</link>
+    <description>Recent content in Tags on Data Handyman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://data-handyman.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data</title>
+      <link>http://data-handyman.com/tags/data/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Form</title>
+      <link>http://data-handyman.com/tags/form/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/form/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formspree</title>
+      <link>http://data-handyman.com/tags/formspree/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/formspree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gmail</title>
+      <link>http://data-handyman.com/tags/gmail/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/gmail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello</title>
+      <link>http://data-handyman.com/tags/hello/</link>
+      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/hello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Organize</title>
+      <link>http://data-handyman.com/tags/organize/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/organize/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://data-handyman.com/tags/python/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>http://data-handyman.com/tags/welcome/</link>
+      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/welcome/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
