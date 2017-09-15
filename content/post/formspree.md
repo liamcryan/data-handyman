@@ -49,7 +49,7 @@ website and required to check a box and you might even spend a minute or two
 clicking on images!  See the video below :)
 
 <center>
-<video src="/img/data-handyman-formspree-1.mp4" autoplay="true" loop="true" muted="true" height="auto" width="75%"></video>
+<video src="/img/data-handyman-formspree-1.mp4" autoplay="true" loop="true" muted="true" height="auto" width="100%"></video>
 </center>
 
 Maybe Formspree isn't exactly what I am looking for, I'll admit.  I can pay them

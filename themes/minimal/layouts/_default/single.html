@@ -24,12 +24,13 @@
         {{ else if eq (.RelPermalink) ("/thankyou/") }}
 
         {{ else }}
-        
+
         <h4 class="page-header">Comments</h4>
 
         {{ template "_internal/disqus.html" . }}
 
         {{ end }}
+        
     {{ end }}
 
 </main>

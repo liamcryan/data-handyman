@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-        <title>Formspree?</title>
+        <title>Simple Gmail - part 1</title>
         <style>
 
     html body {
@@ -85,7 +85,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Formspree?</a>
+                    <a class="navbar-brand visible-xs" href="#">Simple Gmail - part 1</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -137,84 +137,109 @@
     
     
 
-    <h4><a href="/post/formspree/">Formspree?</a></h4>
+    <h4><a href="/post/simplgmail1/">Simple Gmail - part 1</a></h4>
     
     
-    <h5>September 10, 2017</h5>
+    <h5>September 15, 2017</h5>
     
 
-     <kbd class="item-tag">data</kbd>  <kbd class="item-tag">formspree</kbd>  <kbd class="item-tag">form</kbd> 
+     <kbd class="item-tag">gmail</kbd>  <kbd class="item-tag">python</kbd>  <kbd class="item-tag">organize</kbd> 
 
 </div>
 
 
     <br> <div class="text-justify">
 
-<h2 id="why-formspree">Why Formspree?</h2>
+<h2 id="interacting-with-gmail-via-python">Interacting with Gmail via Python</h2>
 
-<p>Creating a form itself isn&rsquo;t too complicated or interesting to me.  What
-interests me about creating forms is the &lsquo;action&rsquo; taken once you press the submit
-button.</p>
+<p>In the <a href="/post/formspree/">last post</a> I mentioned that I wanted to organize the data
+received from the contact form.  If you don&rsquo;t remember, the important thing to know
+is that the form on my Contact page is sent to my Gmail account via a service
+called Formspree.</p>
 
-<p>I want to be able to respond to the person who is contacting
-me.  So, the &lsquo;action&rsquo; I am looking for the form to take is to
-email.  In a later section, I want to go over organizing this data, but
-the first step is receiving it.</p>
-
-<p>Formspree is the service I will be using to email the form&rsquo;s data if you haven&rsquo;t
-guessed already, and it will enable a form to send data to my email address.</p>
-
-<h3 id="diving-into-formspree">Diving into Formspree</h3>
-
-<p>Why Formspree?  Hmm.  No real reason&hellip;it was high on my google search maybe?
-I looked at Formio and thought Formspree would be quicker to get started?  I guess
-you&rsquo;ve got to start somewhere.</p>
-
-<p>I went to this part of Formspree&rsquo;s site to do a quick test:</p>
+<p>To do this automatically, I will use Python, my favorite programming language.  Getting
+Python to interact with Gmail was not too difficut.  I found this blog post especially
+helpful:</p>
 
 <ul>
-<li><a href="http://testformspree.com/">http://testformspree.com/</a></li>
+<li><a href="http://www.voidynullness.net/blog/2013/07/25/gmail-email-with-python-via-imap/">http://www.voidynullness.net/blog/2013/07/25/gmail-email-with-python-via-imap/</a></li>
 </ul>
 
-<p>Follow the directions on the site start with their HTML to get going.
-The code below was copied from their site to get you started.  But if you want
-to try it out, you need to be using a web server.</p>
+<h3 id="gmail-security-hurdles">Gmail Security Hurdles</h3>
 
-<pre><code class="language-html">&lt;form method=&quot;POST&quot; action=&quot;http://formspree.io/YOUREMAILHERE&quot;&gt;
-  &lt;input type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Your email&quot;&gt;
-  &lt;textarea name=&quot;message&quot; placeholder=&quot;Your message&quot;&gt;&lt;/textarea&gt;
-  &lt;button type=&quot;submit&quot;&gt;Send&lt;/button&gt;
-&lt;/form&gt;
+<p>The biggest problem I was facing when I fist tried this out was Gmail not letting
+me access its email server via Python.  This is due to Gmail&rsquo;s security.  Here is
+a typical way to connect to Gmail via Python:</p>
+
+<pre><code class="language-python">import imaplib
+m = imaplib.IMAP4_SSL(&quot;imap.gmail.com&quot;)
+m.login(&quot;data.handyman.01@gmail.com&quot;, &quot;mypassword1234&quot;)
 </code></pre>
 
-<h3 id="how-is-your-free-lunch">How is your free lunch?</h3>
+<p>Here is the error I received:</p>
 
-<p>Ok, so as I mentioned, this service is free.  But free comes with a price!
-If you fill out the form on the contact page, you are redirected to Formspree&rsquo;s
-website and required to check a box and you might even spend a minute or two
-clicking on images!  See the video below :)</p>
+<pre><code>imaplib.IMAP4.error: b'[ALERT] Please log in via your web browser: https://support.google.com/mail/accounts/answer/78754 (Failure)'
+</code></pre>
 
-<p><center>
-<video src="/img/data-handyman-formspree-1.mp4" autoplay="true" loop="true" muted="true" height="auto" width="100%"></video>
-</center></p>
+<h3 id="use-an-app-password-or-allow-less-secure-apps">Use an App Password or Allow Less Secure Apps</h3>
 
-<p>Maybe Formspree isn&rsquo;t exactly what I am looking for, I&rsquo;ll admit.  I can pay them
-to remove the reCAPTCHA and redirection, but that would defeat the purpose of
-these posts.  I&rsquo;m a data handyman, and I want you to see possibilities.  I am going
-to keep the Formspree form for now, but it will be changed, and I&rsquo;ll let you know what
-I come up with as an alternative (to Formspree&rsquo;s $9.99 a month gold plan).</p>
+<p>The link provided in this error message suggest a couple of options that you have to
+get around this problem.  See the highlighted text in the image below for a
+description.</p>
 
-<p>In the future, I&rsquo;ll go through how to organize the form data that was sent to my
-email address.</p>
+<p><img src="/img/data-handyman-organizing-1.png"> </img></p>
 
-<h3 id="until-next-time">Until next time</h3>
+<h3 id="and-an-app-password-it-is">&hellip;And an App Password it is</h3>
 
-<p>If you are interested in talking with me about your data related project, I would love
-for you to get in touch with me at my Formspree powered form here:</p>
+<p>I decided to choose an to generate an App Password because I didn&rsquo;t like the
+idea of making something less secure.  Generating an App Password involves first
+enabling 2-step authentication, and then generating your App Password.</p>
+
+<h3 id="enable-2-step-authentication">Enable 2-Step Authentication</h3>
+
+<p>To enable 2-step authentication, I started at this link:</p>
 
 <ul>
-<li><a href="/contact/">Contact Me</a></li>
+<li><a href="https://myaccount.google.com/intro/security?pli=1">https://myaccount.google.com/intro/security?pli=1</a></li>
 </ul>
+
+<p>With 2-step authentication, each time you log on to Gmail, your phone receives
+a special code which you will have to then enter.  It is more of a hassle
+than one password, but it is worth it to me for the sake of getting Gmail to
+interact with Python.</p>
+
+<h3 id="generate-an-app-password">Generate an App Password</h3>
+
+<p>To generate an App Password, I looked at the following link:</p>
+
+<ul>
+<li><a href="https://support.google.com/accounts/answer/185833?hl=en">https://support.google.com/accounts/answer/185833?hl=en</a></li>
+</ul>
+
+<p>There is a section on the webpage that talks about how to generate an App
+ Password as well as some pretty good instructions.  Once you have you 16
+ character App Password, run this code to test that it works:</p>
+
+<pre><code class="language-python"> import imaplib
+ m = imaplib.IMAP4_SSL(&quot;imap.gmail.com&quot;)
+ m.login(&quot;data.handyman.01@gmail.com&quot;, &quot;my_app_password&quot;)
+</code></pre>
+
+<p>This time you will see this:</p>
+
+<pre><code> ('OK', [b'data.handyman.01@gmail.com authenticated (Success)'])
+</code></pre>
+
+<h3 id="simple-gmail-part-2-precursor">Simple Gmail - part 2 - precursor</h3>
+
+<p>It is great that we are now set up to interact with Gmail via Python!  Sometimes
+you need to get things set up, and while it is important, it isn&rsquo;t always fun.</p>
+
+<p>In part 2 we will be going over how to search for the data that Formspree
+sent when someone presses the Submit on the Contact form.  We&rsquo;ll also talk about
+some things you can do with that data once Python has control of it.</p>
+
+<p>You&rsquo;re awesome.  Thanks for reading.</p>
 </div>
 
     
