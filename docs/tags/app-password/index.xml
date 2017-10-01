@@ -18,7 +18,7 @@
       
       <guid>http://data-handyman.com/post/simplgmail15/</guid>
       <description>That Darn App password Last time, in Simple Gmail - part 1, I talked about how I wanted Python to interact with Gmail so that data from the contact form could be organized. I really only went over how to provide the initial set up for Python/Gmail interaction. I didn&amp;rsquo;t like all of the set up that was required, and thought that I could automate this process.
-For the past couple of weeks, I have been working on a Python library called [simplgmail][&amp;ldquo;https://github.</description>
+For the past couple of weeks, I have been working on a Python library called [simplgmail](&amp;ldquo;https://github.</description>
     </item>
     
   </channel>
