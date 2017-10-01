@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Data Handyman</title>
-    <link>http://data-handyman.com/tags/python/</link>
-    <description>Recent content in Python on Data Handyman</description>
+    <title>App Password on Data Handyman</title>
+    <link>http://data-handyman.com/tags/app-password/</link>
+    <description>Recent content in App Password on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://data-handyman.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://data-handyman.com/tags/app-password/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>http://data-handyman.com/post/simplgmail15/</guid>
       <description>That Darn App password Last time, in Simple Gmail - part 1, I talked about how I wanted Python to interact with Gmail so that data from the contact form could be organized. I really only went over how to provide the initial set up for Python/Gmail interaction. I didn&amp;rsquo;t like all of the set up that was required, and thought that I could automate this process.
 For the past couple of weeks, I have been working on a Python library called [simplgmail][&amp;ldquo;https://github.</description>
-    </item>
-    
-    <item>
-      <title>Simple Gmail - part 1</title>
-      <link>http://data-handyman.com/post/simplgmail1/</link>
-      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/post/simplgmail1/</guid>
-      <description>Gmail and Python In the last post I mentioned that I wanted to organize the data received from the contact form. If you don&amp;rsquo;t remember, the important thing to know is that the form on my Contact page is sent to my Gmail account via a service called Formspree.
-To do this automatically, I will use Python, my favorite programming language. Getting Python to interact with Gmail was not too difficut.</description>
     </item>
     
   </channel>
