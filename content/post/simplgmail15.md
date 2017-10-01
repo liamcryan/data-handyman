@@ -14,7 +14,7 @@ Python/Gmail interaction.  I didn't like all of the set up that was required,
 and thought that I could automate this process.
 
 For the past couple of weeks, I have been working on a Python library called
-[simplgmail]("https://github.com/liamcryan/simplgmail").  Here is how to create
+[simplgmail](https://github.com/liamcryan/simplgmail).  Here is how to create
 an app password.
 
 ```python
