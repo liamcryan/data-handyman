@@ -5,7 +5,6 @@ tags: ["gmail", "python", "organize"]
 draft: false
 ---
 
-
 ## Gmail and Python
 
 In the [last post](/post/formspree/) I mentioned that I wanted to organize the data
@@ -14,11 +13,8 @@ is that the form on my Contact page is sent to my Gmail account via a service
 called Formspree.
 
 To do this automatically, I will use Python, my favorite programming language.  Getting
-Python to interact with Gmail was not too difficut.  I found this blog post especially
-helpful:
-
-* [http://www.voidynullness.net/blog/2013/07/25/gmail-email-with-python-via-imap/](http://www.voidynullness.net/blog/2013/07/25/gmail-email-with-python-via-imap/)
-
+Python to interact with Gmail was not too difficut.  There are a lot of helpful resources
+online.
 
 ### Gmail Security Hurdles
 
@@ -34,7 +30,7 @@ m.login("data.handyman.01@gmail.com", "mypassword1234")
 
 Here is the error I received:
 ```
-imaplib.IMAP4.error: 
+imaplib.IMAP4.error:
 b'[ALERT] Please log in via your web browser:
 https://support.google.com/mail/accounts/answer/78754 (Failure)'
 ```
