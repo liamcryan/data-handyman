@@ -235,7 +235,7 @@ a sender.
 
 ###  Google Calendar
 
-Yes, Google Calendar, why not?  I originally thought it would be cool to organize
+Yes, Google Calendar, why not?  I originally thought about organizing
 the sender's data in Google Sheets, but Google Calendar just sounds more
 fun and interactive.  I have never used the Google Calendar API, but I know
 there will be more set up.  I also want the reminder to have some information such as:
