@@ -1,7 +1,7 @@
 ---
-title: "Simple Gmail - part 1"
+title: "Python Gmail - part 1"
 date: 2017-09-15
-tags: ["gmail", "python", "organize"]
+tags: ["gmail", "python", "set-up"]
 draft: false
 ---
 
@@ -41,7 +41,7 @@ The link provided in this error message suggest a couple of options that you hav
 get around this problem.  See the highlighted text in the image below for a
 description.
 
-<img src="/img/data-handyman-organizing-1.png"> </img>
+<img src="/img/simplgmail1-1.png"> </img>
 
 ### ...And an App Password it is
 
@@ -49,7 +49,7 @@ I decided to choose an to generate an App Password because I didn't like the
 idea of making something less secure.  Generating an App Password involves first
 enabling 2-step authentication, and then generating your App Password.
 
-### Enable 2-Step Authentication  
+### Enable 2-Step Authentication<a name="2-step-authentication"></a>
 
 To enable 2-step authentication, I started at this link:
 
@@ -60,7 +60,7 @@ a special code which you will have to then enter.  It is more of a hassle
 than one password, but it is worth it to me for the sake of getting Gmail to
 interact with Python.
 
-### Generate an App Password
+### Generate an App Password<a name="app-password"></a>
 
 To generate an App Password, I looked at the following link:  
 
@@ -85,6 +85,8 @@ To generate an App Password, I looked at the following link:
 
 It is great that we are now set up to interact with Gmail via Python!  Sometimes
 you need to get things set up, and while it is important, it isn't always fun.
+
+Topics in part 2 include:
 
 In part 2 we will be going over how to search for the data that Formspree
 sent when someone presses the Submit on the Contact form.  We'll also talk about

@@ -6,19 +6,10 @@
     <description>Recent content in Tags on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>App Password</title>
-      <link>http://data-handyman.com/tags/app-password/</link>
-      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/app-password/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Data</title>
@@ -26,6 +17,15 @@
       <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Find</title>
+      <link>http://data-handyman.com/tags/find/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/find/</guid>
       <description></description>
     </item>
     
@@ -50,7 +50,7 @@
     <item>
       <title>Gmail</title>
       <link>http://data-handyman.com/tags/gmail/</link>
-      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/tags/gmail/</guid>
       <description></description>
@@ -66,20 +66,20 @@
     </item>
     
     <item>
-      <title>Organize</title>
-      <link>http://data-handyman.com/tags/organize/</link>
-      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      <title>Python</title>
+      <link>http://data-handyman.com/tags/python/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://data-handyman.com/tags/organize/</guid>
+      <guid>http://data-handyman.com/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Python</title>
-      <link>http://data-handyman.com/tags/python/</link>
-      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      <title>Set Up</title>
+      <link>http://data-handyman.com/tags/set-up/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://data-handyman.com/tags/python/</guid>
+      <guid>http://data-handyman.com/tags/set-up/</guid>
       <description></description>
     </item>
     
