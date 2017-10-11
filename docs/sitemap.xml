@@ -23,6 +23,16 @@
   </url>
   
   <url>
+    <loc>http://data-handyman.com/tags/2-step-authentication/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://data-handyman.com/tags/app-password/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://data-handyman.com/categories/</loc>
     <priority>0</priority>
   </url>
@@ -68,6 +78,11 @@
   </url>
   
   <url>
+    <loc>http://data-handyman.com/tags/google/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://data-handyman.com/tags/hello/</loc>
     <lastmod>2017-09-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -76,6 +91,11 @@
   <url>
     <loc>http://data-handyman.com/post/</loc>
     <lastmod>2017-10-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://data-handyman.com/project/</loc>
     <priority>0</priority>
   </url>
   
@@ -105,6 +125,10 @@
     <loc>http://data-handyman.com/tags/welcome/</loc>
     <lastmod>2017-09-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://data-handyman.com/project/googleapp/</loc>
   </url>
   
 </urlset>

@@ -20,7 +20,7 @@
       <description>Gmail and Python (part 2) Last time we went over the required steps for getting Python to interact with Gmail. They are:
 1) Enable 2 step authentication
 2) Create an app password
-Finally! Let&amp;rsquo;s get to the data! I want to go over how to get a Formspree email and then send a response to the sender. To search for an email we will be using the imaplib library, and to send, we&amp;rsquo;ll use the smtp library.</description>
+Finally! Let&amp;rsquo;s get to the data! I want to go over how to get a Formspree email and then send a response to the sender. To search for an email we will be using the imaplib library, and to send, we&amp;rsquo;ll use the smtplib library.</description>
     </item>
     
     <item>
@@ -73,6 +73,15 @@ I want to make your life easier by helping you think out of the box and realizin
       <description>We&amp;rsquo;ll talk soon! Thank you for your message!
 I am really looking forward to reading what you have to say.
 I&amp;rsquo;ll do my best to respond to you quickly, and hopefully we can begin working out how a data handyman can help you.</description>
+    </item>
+    
+    <item>
+      <title>googleapp</title>
+      <link>http://data-handyman.com/project/googleapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/project/googleapp/</guid>
+      <description></description>
     </item>
     
   </channel>

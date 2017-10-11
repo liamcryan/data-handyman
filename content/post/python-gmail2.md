@@ -19,7 +19,7 @@ Gmail.  They are:
 
 I want to go over how to get a Formspree email and then send a response to the
 sender.  To search for an email we will be using the imaplib library, and to send,
-we'll use the smtp library.
+we'll use the smtplib library.
 
 
 ### Login using imaplib
@@ -45,8 +45,7 @@ the 'Formspree' label (which is basically like a folder).
 
 As I selected the Formspree label, the response was OK and [b'1'].  The
 [b'1'] part of the reponse is telling me that I have 1 email in this label and
-it is identified by '1'.  This makes sense because that I only saw one email in
-the image above.
+it is identified by '1'.
 
 ### Grab the Formspree email
 
@@ -245,5 +244,5 @@ there will be more set up.  I also want the reminder to have some information su
 * *sender message*
 * *when I need to follow up*
 
-I think the next post will need to be called Python GCalendar.  Looking forward
+I think the next post will need to be called Python Google Calendar.  Looking forward
 to next time!

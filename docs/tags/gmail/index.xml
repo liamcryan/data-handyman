@@ -20,7 +20,7 @@
       <description>Gmail and Python (part 2) Last time we went over the required steps for getting Python to interact with Gmail. They are:
 1) Enable 2 step authentication
 2) Create an app password
-Finally! Let&amp;rsquo;s get to the data! I want to go over how to get a Formspree email and then send a response to the sender. To search for an email we will be using the imaplib library, and to send, we&amp;rsquo;ll use the smtp library.</description>
+Finally! Let&amp;rsquo;s get to the data! I want to go over how to get a Formspree email and then send a response to the sender. To search for an email we will be using the imaplib library, and to send, we&amp;rsquo;ll use the smtplib library.</description>
     </item>
     
     <item>

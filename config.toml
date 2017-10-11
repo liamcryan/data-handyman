@@ -27,10 +27,10 @@ disqusShortname = "data-handyman" # delete this to disable disqus comments
     name = "Posts"
     weight = 2
 
-# [[menu.main]]
-#     url = "/project/"
-#     name = "Projects"
-#     weight = 3
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
 
 [[menu.main]]
     url = "/contact/"
