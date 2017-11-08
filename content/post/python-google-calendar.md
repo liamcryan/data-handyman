@@ -65,7 +65,7 @@ upcoming real-life events or if Google is listening to your conversations.
 
 > "Maybe," you think.  "Maybe."
 
-Now, instead of geting the 10 upcoming events, I want to create 1 Calendar event.
+Now, instead of getting the 10 upcoming events, I want to create 1 Calendar event.
 
 ## Scopes
 
