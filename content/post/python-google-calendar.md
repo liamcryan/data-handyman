@@ -1,6 +1,6 @@
 ---
 title: "Python Google Calendar"
-date: 2017-10-20
+date: 2017-11-07
 tags: ["google", "calendar", "python", "api"]
 draft: false
 ---
