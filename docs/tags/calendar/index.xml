@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Google on Data Handyman</title>
-    <link>http://data-handyman.com/tags/google/</link>
-    <description>Recent content in Google on Data Handyman</description>
+    <title>Calendar on Data Handyman</title>
+    <link>http://data-handyman.com/tags/calendar/</link>
+    <description>Recent content in Calendar on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://data-handyman.com/tags/google/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://data-handyman.com/tags/calendar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>http://data-handyman.com/post/python-google-calendar/</guid>
       <description>Google Calendar and Python Last time we talked about how to search Gmail for a specific email. Then we found specific items within the email and created and sent our own email. And all through Python using the smtplib and imaplib libraries!!!!! If that doesn&amp;rsquo;t sound really interesting, next time I&amp;rsquo;ll use more exclamation marks. Feedback is good too.
 This time we want to create an event in Google Calendar through Python.</description>
-    </item>
-    
-    <item>
-      <title>googleapp</title>
-      <link>http://data-handyman.com/project/googleapp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/project/googleapp/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python Google Calendar</title>
+      <link>http://data-handyman.com/post/python-google-calendar/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/post/python-google-calendar/</guid>
+      <description>Google Calendar and Python Last time we talked about how to search Gmail for a specific email. Then we found specific items within the email and created and sent our own email. And all through Python using the smtplib and imaplib libraries!!!!! If that doesn&amp;rsquo;t sound really interesting, next time I&amp;rsquo;ll use more exclamation marks. Feedback is good too.
+This time we want to create an event in Google Calendar through Python.</description>
+    </item>
     
     <item>
       <title>Python Gmail - part 2</title>

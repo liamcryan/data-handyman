@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,11 +21,29 @@
     </item>
     
     <item>
+      <title>Api</title>
+      <link>http://data-handyman.com/tags/api/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>App Password</title>
       <link>http://data-handyman.com/tags/app-password/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/tags/app-password/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calendar</title>
+      <link>http://data-handyman.com/tags/calendar/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/tags/calendar/</guid>
       <description></description>
     </item>
     
@@ -77,7 +95,7 @@
     <item>
       <title>Google</title>
       <link>http://data-handyman.com/tags/google/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/tags/google/</guid>
       <description></description>
@@ -95,7 +113,7 @@
     <item>
       <title>Python</title>
       <link>http://data-handyman.com/tags/python/</link>
-      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/tags/python/</guid>
       <description></description>

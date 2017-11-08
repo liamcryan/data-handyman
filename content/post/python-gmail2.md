@@ -94,11 +94,11 @@ It looks like there is a pattern:
 
 * **'name:'**
 
-* **'\\r\\n'**
+* **'\\\r\\\n'**
 
 * **'Liam Cryan'**
 
-* **'\\r\\n\\r\\n\\r\\n'**
+* **'\\\r\\\n\\\r\\\n\\\r\\\n'**
 
 *  **'email:'**
 
