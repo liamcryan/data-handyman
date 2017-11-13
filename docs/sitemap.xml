@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://data-handyman.com/post/python-google-calendar/</loc>
+    <loc>http://data-handyman.com/post/python-google-calendar1/</loc>
     <lastmod>2017-11-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -34,12 +34,6 @@
   
   <url>
     <loc>http://data-handyman.com/tags/app-password/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://data-handyman.com/tags/calendar/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -90,6 +84,11 @@
   
   <url>
     <loc>http://data-handyman.com/tags/google/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://data-handyman.com/tags/google-calendar/</loc>
     <lastmod>2017-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -118,6 +117,12 @@
   </url>
   
   <url>
+    <loc>http://data-handyman.com/tags/quickstart/</loc>
+    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://data-handyman.com/tags/set-up/</loc>
     <lastmod>2017-09-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -125,7 +130,7 @@
   
   <url>
     <loc>http://data-handyman.com/tags/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

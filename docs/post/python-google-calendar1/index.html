@@ -4,7 +4,7 @@
         <meta charset="utf-8">
          
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Python</title>
+        <title>Python Google Calendar - part 1</title>
         <style>
 
     html body {
@@ -75,9 +75,6 @@
 </script>
  <meta name="generator" content="Hugo 0.26" />
         
-        <link href="http://data-handyman.com/tags/python/index.xml" rel="alternate" type="application/rss+xml" title="Data Handyman" />
-        <link href="http://data-handyman.com/tags/python/index.xml" rel="feed" type="application/rss+xml" title="Data Handyman" />
-        
     </head>
 
     <body>
@@ -88,7 +85,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Python</a>
+                    <a class="navbar-brand visible-xs" href="#">Python Google Calendar - part 1</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -133,9 +130,7 @@
 
 <main>
 
-    <h2>Python</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -153,7 +148,131 @@
      <kbd class="item-tag">google calendar</kbd>  <kbd class="item-tag">python</kbd>  <kbd class="item-tag">quickstart</kbd> 
 
 </div>
-  <div class="item">
+
+
+    <br> <div class="text-justify">
+
+<h2 id="google-calendar-and-python">Google Calendar and Python</h2>
+
+<p>Last time we talked about how to search Gmail for a specific email.  Then we found
+specific items within the email and created and sent our own email.  And all through
+Python using the smtplib and imaplib libraries!!!!!  If that doesn&rsquo;t sound really
+interesting, next time I&rsquo;ll use more exclamation marks.</p>
+
+<p>This time we want to create an event in Google Calendar through Python.  A really good
+reference is Google&rsquo;s <a href="https://developers.google.com/google-apps/calendar/quickstart/python">Calendar API quickstart tutorial</a>.</p>
+
+<p>I&rsquo;m going to be referencing the quickstart tutorial, so if you want to follow
+along feel free.  Here is what it looks like:</p>
+
+<p><img src="/img/google.calendar.api.quickstart.png"></img></p>
+
+<h2 id="python-quickstart-step-1">Python Quickstart Step 1:</h2>
+
+<p>You need to turn on the Google Calendar API.  It is required no matter what language you would like to
+call the API with.  Using what Google calls a
+<a href="https://console.developers.google.com/start/api?id=calendar">&lsquo;wizard&rsquo;</a>, you
+will ultimately need to create a project in the Google Developers console
+and download credentials.</p>
+
+<h2 id="python-quickstart-step-2">Python Quickstart Step 2</h2>
+
+<p>Now you should install the Google Client Library.  The purpose of downloading this
+library is similar to other reasons you would download a Python library from PyPi,
+but really it is needed to be able to let Python interact with the API.</p>
+
+<p>This is a really easy step if you are familiar with python, in a terminal:</p>
+
+<pre><code class="language-bash">$ pip install --upgrade google-api-python-client
+</code></pre>
+
+<p>If you are using PyCharm as a code editor like I am, you can put it in a requirements.txt file
+and PyCharm will know to install it.</p>
+
+<h2 id="python-quickstart-step-3">Python Quickstart Step 3</h2>
+
+<p>This is where you try out the sample code provided.  Take this code, and put it
+in a .py file.  Make sure the credentials you downloaded are in the same folder as this .py file.</p>
+
+<h2 id="python-quickstart-step-4">Python Quickstart Step 4</h2>
+
+<p>You can run the .py file.  Stuff is going to happen.  A web browser opens and, well, just check out the video:</p>
+
+<p><center>
+<video src="/img/google.calendar.api.quickstart.mp4" controls muted="true" height="auto" width="100%"></video>
+</center></p>
+
+<p>Once you close your web broser, you should see something like this where you ran
+the Python file:</p>
+
+<pre><code class="language-bash">Authentication successful.
+Storing credentials to ~/.credentials/calendar-python-quickstart.json
+Getting the upcoming 10 events
+No upcoming events found.
+</code></pre>
+
+<p>The code in the .py found the next 10 events in your Google Calendar.  I didn&rsquo;t have any.</p>
+
+<h2 id="recap">Recap</h2>
+
+<p>Notice when the .py file was run, a browser was opened.  I was asked to</p>
+
+<ul>
+<li><strong><em>&lsquo;Choose an Account&rsquo;</em></strong>. -&gt; <em>if I had not been logged in, I would have been asked to login</em></li>
+</ul>
+
+<p>After I chose my data.handyman.01 account,</p>
+
+<ul>
+<li><strong><em>&lsquo;gcal&rsquo;</em></strong> -&gt; <em>this is the name I assigned to my project through the wizard</em></li>
+</ul>
+
+<p>wanted to</p>
+
+<ul>
+<li><strong><em>&lsquo;View your calendars&rsquo;</em></strong>.  -&gt; <em>this is the level of access that the code in the .py file is requesting</em></li>
+</ul>
+
+<p>I clicked</p>
+
+<ul>
+<li><strong><em>&lsquo;Allow&rsquo;</em></strong> -&gt; <em>this lets Google Calendar know it is OK to trust my computer</em></li>
+</ul>
+
+<p>and then was shown</p>
+
+<ul>
+<li><strong><em>&lsquo;The authenticaion flow has completed&rsquo;</em></strong>.  -&gt; <em>Yay?</em></li>
+</ul>
+
+<h2 id="more-notes">More Notes</h2>
+
+<p>The next time you run this file, your browser won&rsquo;t open.  This is because a lot
+happened in the background while we were watching the browser.  OAuth 2.0.</p>
+
+<p>OAuth 2.0 is the protocol used by Google&rsquo;s APIs for authentication, and
+involves two sets of credentials.  In our case, we downloaded one set of credentials when
+we turned on the Google Calender API, and another was saved to our computer when we clicked
+the &lsquo;Allow&rsquo; button.</p>
+
+<h2 id="part-ii-coming-soon">Part II coming soon</h2>
+
+<p>Part I of the Google Calender was meant to be a quick intro to how to get
+started with the Google Calender API.  The whole process enabled you to view then 10 upcoming
+events in your Google Calendar.  In Part II, we&rsquo;ll use email data from the
+<a href="/post/python-gmail.md">previous post</a> to populate my Google Calendar.</p>
+
+<p>Looking forward to next time.</p>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
 
     
     
@@ -191,9 +310,11 @@
 </div>
  
 
+    
+
+    
+
 </main>
-
-
 
         <footer>
 
