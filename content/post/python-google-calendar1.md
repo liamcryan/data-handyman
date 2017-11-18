@@ -20,7 +20,7 @@ along feel free.  Here is what it looks like:
 
 <img src="/img/google.calendar.api.quickstart.png"></img>
 
-##  Python Quickstart Step 1:
+##  Python Quickstart Step 1
 
 You need to turn on the Google Calendar API.  It is required no matter what language you would like to
 call the API with.  Using what Google calls a

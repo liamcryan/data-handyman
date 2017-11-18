@@ -4,7 +4,7 @@
         <meta charset="utf-8">
          
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Posts</title>
+        <title>Python Google Calendar - part 2</title>
         <style>
 
     html body {
@@ -75,9 +75,6 @@
 </script>
  <meta name="generator" content="Hugo 0.26" />
         
-        <link href="http://data-handyman.com/post/index.xml" rel="alternate" type="application/rss+xml" title="Data Handyman" />
-        <link href="http://data-handyman.com/post/index.xml" rel="feed" type="application/rss+xml" title="Data Handyman" />
-        
     </head>
 
     <body>
@@ -88,7 +85,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Posts</a>
+                    <a class="navbar-brand visible-xs" href="#">Python Google Calendar - part 2</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -133,9 +130,7 @@
 
 <main>
 
-    <h2>Posts</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -153,7 +148,148 @@
      <kbd class="item-tag">google calendar</kbd>  <kbd class="item-tag">python</kbd>  <kbd class="item-tag">create</kbd> 
 
 </div>
-  <div class="item">
+
+
+    <br> <div class="text-justify">
+
+<h2 id="google-calendar-and-python-part-2">Google Calendar and Python - Part 2</h2>
+
+<p>Let&rsquo;s get to the good stuff.</p>
+
+<p><a href="/post/python-google-calendar1">Last time</a> we set up everything we needed so that
+we could interact with the Google Calendar API.  I wanted to use data from a
+Formspree email to create an event in my Google Calendar.</p>
+
+<p>To get the data, I ran the code from <a href="https://github.com/liamcryan/googleapp/blob/master/googleapp/gmail_python_part_2.py">my file</a> on github:</p>
+
+<pre><code class="language-python">if __name__ == &quot;__main__&quot;:
+    email_info = get_formspree_email_info()
+    print(email)
+</code></pre>
+
+<p>The result was:</p>
+
+<pre><code class="language-python">('Liam Cryan', 'cryan.liam@gmail.com', 'This is a test')
+</code></pre>
+
+<p>There it is!  The data!</p>
+
+<h2 id="my-google-calendar-event">My Google Calendar Event</h2>
+
+<p>I want this to happen:</p>
+
+<ol>
+<li>The Google Calendar app on my phone alerts me 3 days from the time the event was created informing me
+of the contactor&rsquo;s name, email address, and subject.</li>
+</ol>
+
+<p>That&rsquo;s it.</p>
+
+<h2 id="oh-yea-one-more-thing-scopes">Oh yea, one more thing - Scopes</h2>
+
+<p>Google APIs use what they call scopes to identify exactly what a service is
+able to access.  When we went through the quickstart tutorial <a href="/post/python-google-calendar1">last time</a>, we were
+using a read-only scope.  This time, we want to use a read/write scope.  This
+amounts to changing:</p>
+
+<ul>
+<li>SCOPES = &lsquo;<a href="https://www.googleapis.com/auth/calendar.readonly'">https://www.googleapis.com/auth/calendar.readonly'</a></li>
+</ul>
+
+<p>to:</p>
+
+<ul>
+<li>SCOPES = &ldquo;<a href="https://www.googleapis.com/auth/calendar&quot;">https://www.googleapis.com/auth/calendar&quot;</a></li>
+</ul>
+
+<p>and deleting this file:</p>
+
+<ul>
+<li>~/.credentials/calendar-python-quickstart.json</li>
+</ul>
+
+<p>Ok, we&rsquo;re ready.</p>
+
+<h2 id="creating-the-event">Creating the Event</h2>
+
+<p>It is always good to start with an example:</p>
+
+<ul>
+<li><a href="https://developers.google.com/google-apps/calendar/v3/reference/events/insert#examples">https://developers.google.com/google-apps/calendar/v3/reference/events/insert#examples</a></li>
+</ul>
+
+<p>But first, let&rsquo;s get all the data we need to populate the event:</p>
+
+<pre><code class="language-python">name, email, subject = get_formspree_email_info()
+now_date = datetime.datetime.utcnow()
+reminder_date = (now_date + datetime.timedelta(days=3)).isoformat() + 'Z'
+</code></pre>
+
+<p>Now let&rsquo;s use the example code populated with our data:</p>
+
+<pre><code class="language-python">credentials = get_credentials()
+http = credentials.authorize(httplib2.Http())
+service = discovery.build('calendar', 'v3', http=http)
+
+event = {
+  'summary': 'data handyman contact reminder',
+  'description': 'Liam!  {} contacted you on your website!\n'
+                  'Isn\'t that amazing?\n'
+                  'Here is the info:\n'
+                  '{}\n{}'.format(name, email, subject),
+  'start': {
+    'dateTime': '{}'.format(reminder_date),
+    'timeZone': 'America/Los_Angeles',
+  },
+  'end': {
+    'dateTime': '{}'.format(reminder_date),
+    'timeZone': 'America/Los_Angeles',
+  },
+}
+
+event = service.events().insert(calendarId='primary', body=event).execute()
+print('Event created: %s' % (event.get('htmlLink')))
+</code></pre>
+
+<h2 id="did-it-work">Did it work?</h2>
+
+<p>A natural question to ask is &lsquo;did it work?&rsquo;  If you don&rsquo;t remember going through Google&rsquo;s <a href="https://developers.google.com/google-apps/calendar/quickstart/python">quickstart tutorial</a>, I&rsquo;ll
+just tell you that the end result provided you with next 10 events in your calendar.</p>
+
+<p>I&rsquo;m going to try it now using a little function called &lsquo;next_x_events&rsquo; that essentially wraps
+the code from Google&rsquo;s quickstart tutorial.</p>
+
+<pre><code class="language-python">credentials = get_credentials()
+http = credentials.authorize(httplib2.Http())
+service = discovery.build('calendar', 'v3', http=http)
+
+next_x_events(service, x=10)
+</code></pre>
+
+<p>Here is the output:</p>
+
+<pre><code class="language-python">Getting the upcoming x event(s)
+2017-11-20T19:49:51-08:00 data handyman contact reminder
+
+Process finished with exit code 0
+</code></pre>
+
+<p>Oh my gosh it worked!</p>
+
+<h2 id="onward">Onward</h2>
+
+<p>Thank you for reading my posts on Python and Google.  If you interests have been
+peaked, <a href="/contact/">let me know</a>.</p>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
 
     
     
@@ -207,41 +343,13 @@
      <kbd class="item-tag">gmail</kbd>  <kbd class="item-tag">python</kbd>  <kbd class="item-tag">set-up</kbd> 
 
 </div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/post/formspree/">Formspree?</a></h4>
-    
-    
-    <h5>September 10, 2017</h5>
-    
-
-     <kbd class="item-tag">data</kbd>  <kbd class="item-tag">formspree</kbd>  <kbd class="item-tag">form</kbd> 
-
-</div>
  
 
-</main>
-
-
-
-<div class="pages">
-
-     
-    <a class="icon pages-icon" href="/post/page/2/" rel="next">
-        <i class="fa fa-arrow-right"></i>
-    </a>
     
 
-</div>
+    
 
-
+</main>
 
         <footer>
 

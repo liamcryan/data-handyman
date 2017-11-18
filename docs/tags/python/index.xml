@@ -6,10 +6,22 @@
     <description>Recent content in Python on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python Google Calendar - part 2</title>
+      <link>http://data-handyman.com/post/python-google-calendar2/</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/post/python-google-calendar2/</guid>
+      <description>Google Calendar and Python - Part 2 Let&amp;rsquo;s get to the good stuff.
+Last time we set up everything we needed so that we could interact with the Google Calendar API. I wanted to use data from a Formspree email to create an event in my Google Calendar.
+To get the data, I ran the code from my file on github:
+if __name__ == &amp;quot;__main__&amp;quot;: email_info = get_formspree_email_info() print(email)  The result was:</description>
+    </item>
     
     <item>
       <title>Python Google Calendar - part 1</title>
