@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python-pptx Tables</title>
+      <link>http://data-handyman.com/post/python-pptx/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/post/python-pptx/</guid>
+      <description>Power Point is where it&amp;rsquo;s at people Here is a scenario from a few months ago:  I create a weekly PowerPoint presentation that relies on some data processing. The process of creating this PowerPoint is a mixture of manual and automated methods. My boss says,
+ &amp;ldquo;Hey, we have been asked to put the contents of the weekly PowerPoint presentation into a mobile app.&amp;rdquo;
+&amp;ldquo;How exciting,&amp;rdquo; I exclaim as I realize our current data flow is not good enough.</description>
+    </item>
     
     <item>
       <title>Python Google Calendar - part 2</title>
