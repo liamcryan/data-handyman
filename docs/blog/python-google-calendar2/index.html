@@ -1,0 +1,974 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Google Calendar - part 2</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.24.1" />
+        
+
+
+        
+            <meta name="author" content="Liam Cryan">
+        
+        
+            <meta name="description" content="The part where we actually do something">
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="Google Calendar - part 2"/>
+<meta name="twitter:title" content="Google Calendar - part 2"/>
+<meta name="twitter:description" content="The part where we actually do something"/>
+
+
+        <meta property="og:title" content="Google Calendar - part 2" />
+<meta property="og:description" content="The part where we actually do something" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://data-handyman.com/blog/python-google-calendar2/" />
+
+
+
+<meta property="article:published_time" content="2017-11-17T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-11-17T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Google Calendar - part 2">
+<meta itemprop="description" content="The part where we actually do something">
+
+
+<meta itemprop="dateModified" content="2017-11-17T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="403">
+
+
+
+<meta itemprop="keywords" content="Python,programming,2 step authentication,app password,google," />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/add-on.css">
+        
+
+        
+            
+                
+            
+        
+
+      
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-106240485-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="http://data-handyman.com/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="http://data-handyman.com/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/python-pptx/">Python-pptx Tables</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-12-15'>
+                                    December 15, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/python-google-calendar2/">Google Calendar - part 2</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-11-17'>
+                                    November 17, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/python-google-calendar1/">Google Calendar - part 1</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-11-07'>
+                                    November 7, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/python-gmail2/">Python Gmail - part 2</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-10-09'>
+                                    October 9, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/python-gmail1/">Python Gmail - part 1</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-09-15'>
+                                    September 15, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/blog/python-google-calendar2/">Google Calendar - part 2</a></h1>
+            
+        
+        
+            <p>The part where we actually do something</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2017-11-17'>
+            November 17, 2017</time>
+        <span class="author">Liam Cryan</span>
+        
+            <p>2 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </section>
+  
+
+  
+
+  <div id="content">
+    
+
+<h2 id="google-calendar-and-python-part-2">Google Calendar and Python - Part 2</h2>
+
+<p>Let&rsquo;s get to the good stuff.</p>
+
+<p><a href="/post/python-google-calendar1">Last time</a> we set up everything we needed so that
+we could interact with the Google Calendar API.  I wanted to use data from a
+Formspree email to create an event in my Google Calendar.</p>
+
+<p>To get the data, I ran the code from last time which I saved <a href="https://github.com/liamcryan/googleapp/blob/master/googleapp/gmail_python_part_2.py">here</a> on github:</p>
+
+<pre><code class="language-python">if __name__ == &quot;__main__&quot;:
+    email_info = get_formspree_email_info()
+    print(email)
+</code></pre>
+
+<p>The result was:</p>
+
+<pre><code class="language-python">('Liam Cryan', 'cryan.liam@gmail.com', 'This is a test')
+</code></pre>
+
+<p>There it is!  The data!</p>
+
+<h2 id="my-google-calendar-event">My Google Calendar Event</h2>
+
+<p>I want this to happen:</p>
+
+<ol>
+<li>The Google Calendar app on my phone alerts me 3 days from the time the event was created informing me
+of the contactor&rsquo;s name, email address, and subject.</li>
+</ol>
+
+<p>That&rsquo;s it.</p>
+
+<h2 id="oh-yea-one-more-thing-scopes">Oh yea, one more thing - Scopes</h2>
+
+<p>Google APIs use what they call scopes to identify exactly what a service is
+able to access.  When we went through the quickstart tutorial <a href="/post/python-google-calendar1">last time</a>, we were
+using a read-only scope.  This time, we want to use a read/write scope.  This
+amounts to changing:</p>
+
+<ul>
+<li>SCOPES = &lsquo;<a href="https://www.googleapis.com/auth/calendar.readonly'">https://www.googleapis.com/auth/calendar.readonly'</a></li>
+</ul>
+
+<p>to:</p>
+
+<ul>
+<li>SCOPES = &ldquo;<a href="https://www.googleapis.com/auth/calendar&quot;">https://www.googleapis.com/auth/calendar&quot;</a></li>
+</ul>
+
+<p>and deleting this file:</p>
+
+<ul>
+<li>~/.credentials/calendar-python-quickstart.json</li>
+</ul>
+
+<p>Ok, we&rsquo;re ready.</p>
+
+<h2 id="creating-the-event">Creating the Event</h2>
+
+<p>It is always good to start with an example:</p>
+
+<ul>
+<li><a href="https://developers.google.com/google-apps/calendar/v3/reference/events/insert#examples">https://developers.google.com/google-apps/calendar/v3/reference/events/insert#examples</a></li>
+</ul>
+
+<p>But first, let&rsquo;s get all the data we need to populate the event:</p>
+
+<pre><code class="language-python">name, email, subject = get_formspree_email_info()
+now_date = datetime.datetime.utcnow()
+reminder_date = (now_date + datetime.timedelta(days=3)).isoformat() + 'Z'
+</code></pre>
+
+<p>Now let&rsquo;s use the example code populated with our data:</p>
+
+<pre><code class="language-python">credentials = get_credentials()
+http = credentials.authorize(httplib2.Http())
+service = discovery.build('calendar', 'v3', http=http)
+
+event = {
+  'summary': 'data handyman contact reminder',
+  'description': 'Liam!  {} contacted you on your website!\n'
+                  'Isn\'t that amazing?\n'
+                  'Here is the info:\n'
+                  '{}\n{}'.format(name, email, subject),
+  'start': {
+    'dateTime': '{}'.format(reminder_date),
+    'timeZone': 'America/Los_Angeles',
+  },
+  'end': {
+    'dateTime': '{}'.format(reminder_date),
+    'timeZone': 'America/Los_Angeles',
+  },
+}
+
+event = service.events().insert(calendarId='primary', body=event).execute()
+print('Event created: %s' % (event.get('htmlLink')))
+</code></pre>
+
+<h2 id="did-it-work">Did it work?</h2>
+
+<p>A natural question to ask is &lsquo;did it work?&rsquo;  If you don&rsquo;t remember going through Google&rsquo;s <a href="https://developers.google.com/google-apps/calendar/quickstart/python">quickstart tutorial</a>, I&rsquo;ll
+just tell you that the end result provided you with next 10 events in your calendar.</p>
+
+<p>I&rsquo;m going to try it now using a little function called &lsquo;next_x_events&rsquo; that essentially wraps
+the code from Google&rsquo;s quickstart tutorial.</p>
+
+<pre><code class="language-python">credentials = get_credentials()
+http = credentials.authorize(httplib2.Http())
+service = discovery.build('calendar', 'v3', http=http)
+
+next_x_events(service, x=10)
+</code></pre>
+
+<p>Here is the output:</p>
+
+<pre><code class="language-python">Getting the upcoming x event(s)
+2017-11-20T19:49:51-08:00 data handyman contact reminder
+
+Process finished with exit code 0
+</code></pre>
+
+<p>Oh my gosh it worked!</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/programming'>programming</a></li>
+    
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+      <h2>Say something</h2>
+
+  <form class="post-new-comment" method="POST" action="https://api.staticman.net/v2/entry/liamcryan/data-handyman/master/comments">
+
+    <input type="hidden" name="options[redirect]" value="http://data-handyman.com//blog/python-google-calendar2/">
+    <input type="hidden" name="options[entryId]" value="3f13a9ac7c4f41d04e00e143bfe98840">
+    <input required name="fields[name]" type="text" placeholder="Your name (Required)">
+    <input name="fields[website]" type="text" placeholder="Your website">
+    <input required name="fields[email]" type="email" placeholder="Your email address (Required for Gravatar)">
+    <textarea required name="fields[body]" placeholder='Your message. Feel free to use Markdown (Google "Markdown Cheat Sheet").' rows="10"></textarea>
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="6LeUxz8UAAAAAPx7Z6JcI-BiUr0rpMSXJs8Y4jcQ">
+    <input type="hidden" name="options[reCaptcha][secret]" value="JUK5Q5EeEZcTJ7NNOr8bOUBuZtNQqUg/EePxIq5Yz8G3ia7hyd5GqUGcKWTHEs1qpETixT0GxSzh1uDPpyp&#43;HL0t6snqwIZ0Grte1y55MvqW2XDa/lclZqo/ebA&#43;JKm7tIDgwaBFbnvoOdOwJOJwDdbN2pTAVd/NW6icX3&#43;UQY0=">
+    <div class="g-recaptcha" data-sitekey="6LeUxz8UAAAAAPx7Z6JcI-BiUr0rpMSXJs8Y4jcQ"></div>
+    <input type="submit" value="Submit">
+  </form>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<h2>Comments</h2>
+
+
+
+
+
+
+  
+
+
+
+  <p>Nothing yet.</p>
+
+
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="/blog/python-google-calendar1/"
+                class="button big previous">Google Calendar - part 1</a></li>
+    
+
+    
+        <li><a href="/blog/python-pptx/"
+                class="button big next">Python-pptx Tables</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='/'><img src="/img/main/logo.jpg" class="intro-circle" width="100px" alt="Hugo Future Imperfect" /></a>
+      
+    
+    
+      <header>
+        <h2>Liam Cryan</h2>
+        <p>How to be handy with data</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          <li>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+          </li>
+        
+        
+  <li><a href="//github.com/liamcryan" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/liam-cryan-8a1a4853" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:liam@data.handyman.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section id="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/python-pptx/">Python-pptx Tables</a>
+              </h3>
+              
+              <time class="published" datetime='2017-12-15'>
+                December 15, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/python-google-calendar2/">Google Calendar - part 2</a>
+              </h3>
+              
+              <time class="published" datetime='2017-11-17'>
+                November 17, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/python-google-calendar1/">Google Calendar - part 1</a>
+              </h3>
+              
+              <time class="published" datetime='2017-11-07'>
+                November 7, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/python-gmail2/">Python Gmail - part 2</a>
+              </h3>
+              
+              <time class="published" datetime='2017-10-09'>
+                October 9, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/python-gmail1/">Python Gmail - part 1</a>
+              </h3>
+              
+              <time class="published" datetime='2017-09-15'>
+                September 15, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/programming/">programming</a>
+                <span style="float:right;">5</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/python/">Python</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h1>
+      <p>A data handyman is a person who is like any other handyman.  Not always a man, but always handy.</p>
+      <a href="/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          <li>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+          </li>
+        
+        
+  <li><a href="//github.com/liamcryan" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/liam-cryan-8a1a4853" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:liam@data.handyman.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2017
+        
+          Data Handyman
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="/js/util.js"></script>
+      <script src="/js/main.js"></script>
+      <script src="/js/backToTop.js"></script>
+      <script src="/js/add-on.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

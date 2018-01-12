@@ -6,13 +6,12 @@
     <description>Recent content in Tags on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>2 Step Authentication</title>
+      <title>2 step authentication</title>
       <link>http://data-handyman.com/tags/2-step-authentication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -21,65 +20,11 @@
     </item>
     
     <item>
-      <title>App Password</title>
+      <title>App password</title>
       <link>http://data-handyman.com/tags/app-password/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/tags/app-password/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Create</title>
-      <link>http://data-handyman.com/tags/create/</link>
-      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/create/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data</title>
-      <link>http://data-handyman.com/tags/data/</link>
-      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Find</title>
-      <link>http://data-handyman.com/tags/find/</link>
-      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/find/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Form</title>
-      <link>http://data-handyman.com/tags/form/</link>
-      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/form/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Formspree</title>
-      <link>http://data-handyman.com/tags/formspree/</link>
-      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/formspree/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gmail</title>
-      <link>http://data-handyman.com/tags/gmail/</link>
-      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/gmail/</guid>
       <description></description>
     </item>
     
@@ -89,78 +34,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://data-handyman.com/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Calendar</title>
-      <link>http://data-handyman.com/tags/google-calendar/</link>
-      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/google-calendar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hello</title>
-      <link>http://data-handyman.com/tags/hello/</link>
-      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/hello/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ppt</title>
-      <link>http://data-handyman.com/tags/ppt/</link>
-      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/ppt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://data-handyman.com/tags/python/</link>
-      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quickstart</title>
-      <link>http://data-handyman.com/tags/quickstart/</link>
-      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/quickstart/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Set Up</title>
-      <link>http://data-handyman.com/tags/set-up/</link>
-      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/set-up/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Table</title>
-      <link>http://data-handyman.com/tags/table/</link>
-      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/table/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>http://data-handyman.com/tags/welcome/</link>
-      <pubDate>Sat, 09 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/tags/welcome/</guid>
       <description></description>
     </item>
     

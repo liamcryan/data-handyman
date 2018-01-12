@@ -10,5 +10,23 @@
 	<atom:link href="http://data-handyman.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Programming</title>
+      <link>http://data-handyman.com/categories/programming/</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://data-handyman.com/categories/python/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/categories/python/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

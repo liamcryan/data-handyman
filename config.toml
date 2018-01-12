@@ -1,67 +1,170 @@
-baseURL = "http://data-handyman.com/"
+baseurl = "http://data-handyman.com/"
 languageCode = "en-us"
 title = "Data Handyman"
-theme = "minimal"
+theme = "hugo-future-imperfect"
+preserveTaxonomyNames = true
+paginate = 3
+disqusShortname = ""
+googleAnalytics = "UA-106240485-1"
+pluralizeListTitles = false
 publishDir = "docs"
-# disqusShortname = "data-handyman" # delete this to disable disqus comments
 
 [params]
-    author = "Liam Cryan"
-    description = "Finally, a handyman for...data"
-    githubUsername = "liamcryan"
-    accent = "brown"
-    showBorder = true
-    backgroundColor = "beige"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+  # Sets the meta tag description
+  description          = "A data handyman's blog"
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle          = "Data Handyman"
+  # Sets where "View More Posts" links
+  viewMorePostLink     = "/blog/"
+
+# Optional Params
+  # Sets navbarTitle to match the section of the website
+  dynamicTitles        = true
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  rssAppearAtTop       = true
+  rssAppearAtBottom    = true
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  categoriesByCount    = true
+  # Sets Estimated Reading Time to appear in post headers
+  includeReadingTime   = true
+  # Sets the Favicon and Version for the site. Default support is for
+  # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
+  # These are stored in the favicon folder. See the following for more information:
+  # https://github.com/audreyr/favicon-cheat-sheet
+  loadFavicon          = false
+  faviconVersion       = ""
+  # Sets Social Share links to appear on posts
+  socialShare          = true
+  # Load custom CSS or JavaScript files. The variable is an array so that you
+  # can load multiple files if necessary. You can also load the standard theme
+  # files by adding the value, "default".
+  # customCSS            = ["default", "/path/to/file"]
+  # customJS             = ["default", "/path/to/file"]
+  customCSS            = ["default"]
+  customJS             = ["default"]
+
+# Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
+# due to its ease of use. Feel free to check out both and decide what you would
+# prefer to use. See Staticman.yml for additional settings.
+[params.staticman]
+  # Sets Statiman to be active
+  staticman = true
+  # Sets the location for Staticman to connect to
+  username  = "liamcryan"
+  repo      = "data-handyman"
+  branch    = "master"
+
+  [params.staticman.recaptcha]
+    sitekey = "6LeUxz8UAAAAAPx7Z6JcI-BiUr0rpMSXJs8Y4jcQ"
+    secret  = "JUK5Q5EeEZcTJ7NNOr8bOUBuZtNQqUg/EePxIq5Yz8G3ia7hyd5GqUGcKWTHEs1qpETixT0GxSzh1uDPpyp+HL0t6snqwIZ0Grte1y55MvqW2XDa/lclZqo/ebA+JKm7tIDgwaBFbnvoOdOwJOJwDdbN2pTAVd/NW6icX3+UQY0="  # this is encrypted through https://staticman.net/docs/encryption
+
+  # These are optional params related to the sidebar. They are recommended, but not
+  # required for proper functionality. HTML is supported within the params.
+[params.intro]
+  header    = "Liam Cryan"
+
+  paragraph = "How to be handy with data"
+
+  about     = "A data handyman is a person who is like any other handyman.  Not always a man, but always handy."
+
+  # This appears at the top of the sidebar above params.intro.header.
+  # A width of less than 100px is recommended from a design perspective.
+  [params.intro.pic]
+    src       = "/img/main/logo.jpg"
+    # Sets Image to be a cirlce
+    circle    = true
+    # Sets Image to be Future Imperfect's hexagon
+    imperfect = true
+    width     = "100px"
+    alt       = "Hugo Future Imperfect"
+
+[params.postAmount]
+# Sets the number of recent posts to show in the sidebar. The default value is 5.
+    sidebar = 5
+
+# Sets the menu items in the navigation bar
+# Identifier prepends a Font Awesome icon to the menu item
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  identifier = "fa fa-home"
+  weight = 1
 
 [[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+  name = "About"
+  url = "/about/"
+  identifier = "fa fa-id-card-o"
+  weight = 2
 
 [[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 2
+  name = "Blog"
+  url = "/blog/"
+  identifier = "fa fa-newspaper-o"
+  weight = 3
+
+#[[menu.main]]
+#  name = "Itemized"
+#  url = "/itemized/"
+#  identifier = "fa fa-list"
+#  weight = 4
+
+#[[menu.main]]
+#  name = "Categories"
+#  url = "/categories/"
+#  identifier = "fa fa-sitemap"
+#  weight = 5
 
 [[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 3
+  name = "Contact"
+  url = "/contact/"
+  identifier = "fa fa-envelope-o"
+  weight = 6
 
-[[menu.main]]
-    url = "/contact/"
-    name = "Contact"
-    weight = 4
-
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
-
-[[menu.icon]]
-    url = "mailto:liam@data-handyman.com"
-    name = "envelope-o"
-    weight = 1
-
-[[menu.icon]]
-    url = "https://github.com/liamcryan/"
-    name = "github"
-    weight = 2
-
-# [[menu.icon]]
-#     url = "https://twitter.com/username/"
-#     name = "twitter"
-#     weight = 3
-
-# [[menu.icon]]
-#     url = "https://www.linkedin.com/in/liam-cryan-8a1a4853/"
-#     name = "linkedin"
-#     weight = 4
-
-# [[menu.icon]]
-#     url = "https://www.stackoverflow.com/username/"
-#     name = "stack-overflow"
-#     weight = 5
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
+[social]
+  # Coding Communities
+  github          = "liamcryan"
+  #gitlab          = ""
+  #stackoverflow   = "" # User Number
+  #bitbucket       = ""
+  #jsfiddle        = ""
+  #codepen         = ""
+  # Visual Art Communities
+  #deviantart      = ""
+  #flickr          = "example"
+  #behance         = ""
+  #dribbble        = ""
+  # Publishing Communities
+  #wordpress       = ""
+  #medium          = ""
+  # Professional/Business Oriented Communities
+  linkedin        = "liam-cryan-8a1a4853"
+  #foursquare      = ""
+  #xing            = ""
+  #slideshare      = ""
+  # Social Networks
+  #facebook        = "example"
+  #googleplus      = ""
+  #reddit          = "example"
+  #quora           = ""
+  #youtube         = ""
+  #vimeo           = ""
+  #whatsapp        = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+#    wechat          = ""
+#    qq              = "" # User ID Number
+#  instagram       = "example"
+#  tumblr          = ""
+#  twitter         = "example"
+#  skype           = ""
+#  snapchat        = ""
+#  pinterest       = "example"
+#  telegram        = "example"
+#  vine            = ""
+  # Email
+  email           = "liam@data.handyman.com"

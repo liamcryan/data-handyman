@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Data Handyman</title>
+    <link>http://data-handyman.com/blog/</link>
+    <description>Recent content in Blog on Data Handyman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://data-handyman.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python-pptx Tables</title>
+      <link>http://data-handyman.com/blog/python-pptx/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/python-pptx/</guid>
+      <description>Power Point is where it&amp;rsquo;s at people Something like this happened recently:  A weekly PowerPoint presentation that relies on some data processing is created. The process of creating this PowerPoint is a mixture of manual and automated methods. My boss says,
+&amp;ldquo;Hey, we have been asked to put the contents of the weekly PowerPoint presentation into a mobile app.&amp;rdquo;
+&amp;ldquo;How exciting,&amp;rdquo; I exclaim&amp;hellip;but I realize our current data flow is not good enough.</description>
+    </item>
+    
+    <item>
+      <title>Google Calendar - part 2</title>
+      <link>http://data-handyman.com/blog/python-google-calendar2/</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/python-google-calendar2/</guid>
+      <description>Google Calendar and Python - Part 2 Let&amp;rsquo;s get to the good stuff.
+Last time we set up everything we needed so that we could interact with the Google Calendar API. I wanted to use data from a Formspree email to create an event in my Google Calendar.
+To get the data, I ran the code from last time which I saved here on github:
+if __name__ == &amp;quot;__main__&amp;quot;: email_info = get_formspree_email_info() print(email)  The result was:</description>
+    </item>
+    
+    <item>
+      <title>Google Calendar - part 1</title>
+      <link>http://data-handyman.com/blog/python-google-calendar1/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/python-google-calendar1/</guid>
+      <description>Google Calendar and Python Last time we talked about how to search Gmail for a specific email. Then we found specific items within the email and created and sent our own email. And all through Python using the smtplib and imaplib libraries!!!!! If that doesn&amp;rsquo;t sound really interesting, next time I&amp;rsquo;ll use more exclamation marks.
+This time we want to create an event in Google Calendar through Python. A really good reference is Google&amp;rsquo;s Calendar API quickstart tutorial.</description>
+    </item>
+    
+    <item>
+      <title>Python Gmail - part 2</title>
+      <link>http://data-handyman.com/blog/python-gmail2/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/python-gmail2/</guid>
+      <description>Gmail and Python (part 2) Last time we went over the required steps for getting Python to interact with Gmail. They are:
+1) Enable 2 step authentication
+2) Create an app password
+Finally! Let&amp;rsquo;s get to the data! I want to go over how to get a Formspree email and then send a response to the sender. To search for an email we will be using the imaplib library, and to send, we&amp;rsquo;ll use the smtplib library.</description>
+    </item>
+    
+    <item>
+      <title>Python Gmail - part 1</title>
+      <link>http://data-handyman.com/blog/python-gmail1/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/python-gmail1/</guid>
+      <description>Gmail and Python In the last post I mentioned that I wanted to organize the data received from the contact form. If you don&amp;rsquo;t remember, the important thing to know is that the form on my Contact page is sent to my Gmail account via a service called Formspree.
+To do this automatically, I will use Python, my favorite programming language. Getting Python to interact with Gmail was not too difficut.</description>
+    </item>
+    
+    <item>
+      <title>Formspree?</title>
+      <link>http://data-handyman.com/blog/formspree/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/formspree/</guid>
+      <description>Why Formspree? Creating a form itself isn&amp;rsquo;t too complicated or interesting to me. What interests me about creating forms is the &amp;lsquo;action&amp;rsquo; taken once you press the submit button.
+I want to be able to respond to the person who is contacting me. So, the &amp;lsquo;action&amp;rsquo; I am looking for the form to take is to email. In a later section, I want to go over organizing this data, but the first step is receiving it.</description>
+    </item>
+    
+  </channel>
+</rss>
