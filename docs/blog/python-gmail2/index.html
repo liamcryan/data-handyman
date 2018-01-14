@@ -245,9 +245,6 @@ ga('send', 'pageview');
 
 
   
-  
-    
-  
 
 
         
@@ -559,7 +556,7 @@ the &lsquo;message&rsquo; variable are:</p>
 <p><img src="/img/2017/10/gmail2-1.png"> </img></p>
 
 <ul>
-<li><p>The sender&rsquo;s email address in this case is <strong>&lsquo;cryan.liam@gmail.com&rsquo;</strong></p></li>
+<li><p>The sender&rsquo;s email address in this case is <strong>&lsquo;cryn.lim@gmail.com&rsquo;</strong></p></li>
 
 <li><p>The subject I am looking for is <strong>&lsquo;This is a test&rsquo;</strong></p></li>
 </ul>
@@ -576,7 +573,7 @@ what that looks like:</p>
 <pre><code class="language-python">&gt;&gt;&gt; msg = str(message[1][0][1])
 &gt;&gt;&gt; a = msg.find(&quot;name:&quot;)
 &gt;&gt;&gt; msg[a:a+100]
-'name:\\r\\nLiam Cryan\\r\\n\\r\\n\\r\\nemail:\\r\\ncryan.liam@gmail.com\\r\\n\\r\\n\\r\\nsubject:\\r\\nThis is a test\\'
+'name:\\r\\nLiam Cryan\\r\\n\\r\\n\\r\\nemail:\\r\\ncryn.lim@gmail.com\\r\\n\\r\\n\\r\\nsubject:\\r\\nThis is a test\\'
 </code></pre>
 
 <p>It looks like there is a pattern:</p>
@@ -608,7 +605,7 @@ what that looks like:</p>
 <p>Yes!  It looks like we got the sender&rsquo;s name.  Let&rsquo;s try the rest:</p>
 
 <pre><code class="language-python">&gt;&gt;&gt; msg[b+len('email:\\r\\n'):c-len('\\r\\n\\r\\n\\r\\n')]
-'cryan.liam@gmail.com'
+'cryn.lim@gmail.com'
 &gt;&gt;&gt; msg[c+len('subject:\\r\\n'):d-len('\\r\\n\\r\\n\\r\\n')]
 'This is a test'
 </code></pre>
@@ -648,7 +645,7 @@ and look forward to talking with you.&rsquo;</p></li>
 &gt;&gt;&gt; send_subject = msg[c+len('subject:\\r\\n'):d-len('\\r\\n\\r\\n\\r\\n')]
 &gt;&gt;&gt; send_name = msg[a+len('name:\\r\\n'):b-len('\\r\\n\\r\\n\\r\\n')]
 &gt;&gt;&gt; print((send_to, send_subject, send_name))
-('cryan.liam@gmail.com' 'This is a test', 'Liam Cryan')
+('cryn.lim@gmail.com' 'This is a test', 'Liam Cryan')
 </code></pre>
 
 <p>smtplib has a method, sendmail, which is used to send emails.  It does not
