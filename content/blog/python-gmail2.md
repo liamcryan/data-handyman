@@ -77,7 +77,7 @@ Here is an image of the opened Formspree email.
 
 <img src="/img/2017/10/gmail2-1.png"> </img>
 
-* The sender's email address in this case is **'cryan.liam@gmail.com'**
+* The sender's email address in this case is **'cryn.lim@gmail.com'**
 
 * The subject I am looking for is **'This is a test'**  
 
@@ -95,7 +95,7 @@ what that looks like:
 >>> msg = str(message[1][0][1])
 >>> a = msg.find("name:")
 >>> msg[a:a+100]
-'name:\\r\\nLiam Cryan\\r\\n\\r\\n\\r\\nemail:\\r\\ncryan.liam@gmail.com\\r\\n\\r\\n\\r\\nsubject:\\r\\nThis is a test\\'
+'name:\\r\\nLiam Cryan\\r\\n\\r\\n\\r\\nemail:\\r\\ncryn.lim@gmail.com\\r\\n\\r\\n\\r\\nsubject:\\r\\nThis is a test\\'
 ```
 
 It looks like there is a pattern:
@@ -128,7 +128,7 @@ Yes!  It looks like we got the sender's name.  Let's try the rest:
 
 ```python
 >>> msg[b+len('email:\\r\\n'):c-len('\\r\\n\\r\\n\\r\\n')]
-'cryan.liam@gmail.com'
+'cryn.lim@gmail.com'
 >>> msg[c+len('subject:\\r\\n'):d-len('\\r\\n\\r\\n\\r\\n')]
 'This is a test'
 ```
@@ -169,7 +169,7 @@ Earlier we figured out who to send the email to and also the subject.
 >>> send_subject = msg[c+len('subject:\\r\\n'):d-len('\\r\\n\\r\\n\\r\\n')]
 >>> send_name = msg[a+len('name:\\r\\n'):b-len('\\r\\n\\r\\n\\r\\n')]
 >>> print((send_to, send_subject, send_name))
-('cryan.liam@gmail.com' 'This is a test', 'Liam Cryan')
+('cryn.lim@gmail.com' 'This is a test', 'Liam Cryan')
 ```
 
 smtplib has a method, sendmail, which is used to send emails.  It does not

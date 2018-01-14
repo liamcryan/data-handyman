@@ -32,7 +32,7 @@ if __name__ == "__main__":
 The result was:
 
 ```python
-('Liam Cryan', 'cryan.liam@gmail.com', 'This is a test')
+('Lim Cryn', 'cryn.lam@gmail.com', 'This is a test')
 ```
 
 There it is!  The data!  
