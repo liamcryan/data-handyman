@@ -6,10 +6,19 @@
     <description>Recent content in Reporting on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/categories/reporting/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PDF File Repository Viewer</title>
+      <link>http://data-handyman.com/demos/pdf-repo-viewer/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/demos/pdf-repo-viewer/</guid>
+      <description>pdf-repo-viewer This will be more specific information about the pdf-repo-viewer</description>
+    </item>
     
     <item>
       <title>Pdf Repository Viewer</title>

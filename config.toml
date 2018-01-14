@@ -117,11 +117,18 @@ publishDir = "docs"
 #  identifier = "fa fa-sitemap"
 #  weight = 5
 
+# [[menu.main]]
+#   name = "Demos"
+#   url = "/demos/"
+#   identifier = "fa fa-building-o"
+#   weight=6
+
 [[menu.main]]
   name = "Contact"
   url = "/contact/"
   identifier = "fa fa-envelope-o"
-  weight = 6
+  weight = 7
+
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop

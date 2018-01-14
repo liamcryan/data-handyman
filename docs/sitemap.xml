@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://data-handyman.com/demos/pdf-repo-viewer/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://data-handyman.com/blog/pdf-repo-viewer/</loc>
     <lastmod>2018-01-13T00:00:00+00:00</lastmod>
   </url>
@@ -69,7 +74,13 @@
   
   <url>
     <loc>http://data-handyman.com/</loc>
-    <lastmod>2018-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://data-handyman.com/demos/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -97,7 +108,7 @@
   
   <url>
     <loc>http://data-handyman.com/categories/reporting/</loc>
-    <lastmod>2018-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

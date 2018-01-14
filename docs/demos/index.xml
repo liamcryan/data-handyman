@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demos on Data Handyman</title>
+    <link>http://data-handyman.com/demos/</link>
+    <description>Recent content in Demos on Data Handyman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://data-handyman.com/demos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PDF File Repository Viewer</title>
+      <link>http://data-handyman.com/demos/pdf-repo-viewer/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/demos/pdf-repo-viewer/</guid>
+      <description>pdf-repo-viewer This will be more specific information about the pdf-repo-viewer</description>
+    </item>
+    
+  </channel>
+</rss>
