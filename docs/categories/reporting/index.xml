@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reporting on Data Handyman</title>
+    <link>http://data-handyman.com/categories/reporting/</link>
+    <description>Recent content in Reporting on Data Handyman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://data-handyman.com/categories/reporting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pdf Repository Viewer</title>
+      <link>http://data-handyman.com/blog/pdf-repo-viewer/</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/pdf-repo-viewer/</guid>
+      <description>From PPTX to PDF In the last post, I talked about how to programmatically create Power Point Presentations. It was great fun and today&amp;rsquo;s topic is somewhat of a logical continuation.
+The problem with pptx files is that they appear slightly differnetly depending upon the program that opens the file. I found this out as I was neatly crafting the sizes of my charts and tables, only to find that when I opened it with Microsoft PowerPoint they looked very wrong.</description>
+    </item>
+    
+  </channel>
+</rss>

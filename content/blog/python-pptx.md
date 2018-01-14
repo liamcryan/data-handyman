@@ -1,6 +1,6 @@
 +++
 author = "Liam Cryan"
-categories = ["Python"]
+categories = ["programming", "python"]
 date = "2017-12-15"
 description = "Use pptx_tables to create tables more easily through python-pptx"
 featured = ""

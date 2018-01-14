@@ -22,5 +22,49 @@
 &amp;ldquo;How exciting,&amp;rdquo; I exclaim&amp;hellip;but I realize our current data flow is not good enough.</description>
     </item>
     
+    <item>
+      <title>Google Calendar - part 2</title>
+      <link>http://data-handyman.com/blog/python-google-calendar2/</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/python-google-calendar2/</guid>
+      <description>Google Calendar and Python - Part 2 Let&amp;rsquo;s get to the good stuff.
+Last time we set up everything we needed so that we could interact with the Google Calendar API. I wanted to use data from a Formspree email to create an event in my Google Calendar.
+To get the data, I ran the code from last time which I saved here on github:
+if __name__ == &amp;quot;__main__&amp;quot;: email_info = get_formspree_email_info() print(email)  The result was:</description>
+    </item>
+    
+    <item>
+      <title>Google Calendar - part 1</title>
+      <link>http://data-handyman.com/blog/python-google-calendar1/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/python-google-calendar1/</guid>
+      <description>Google Calendar and Python Last time we talked about how to search Gmail for a specific email. Then we found specific items within the email and created and sent our own email. And all through Python using the smtplib and imaplib libraries!!!!! If that doesn&amp;rsquo;t sound really interesting, next time I&amp;rsquo;ll use more exclamation marks.
+This time we want to create an event in Google Calendar through Python. A really good reference is Google&amp;rsquo;s Calendar API quickstart tutorial.</description>
+    </item>
+    
+    <item>
+      <title>Python Gmail - part 2</title>
+      <link>http://data-handyman.com/blog/python-gmail2/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/python-gmail2/</guid>
+      <description>Gmail and Python (part 2) Last time we went over the required steps for getting Python to interact with Gmail. They are:
+1) Enable 2 step authentication
+2) Create an app password
+Finally! Let&amp;rsquo;s get to the data! I want to go over how to get a Formspree email and then send a response to the sender. To search for an email we will be using the imaplib library, and to send, we&amp;rsquo;ll use the smtplib library.</description>
+    </item>
+    
+    <item>
+      <title>Python Gmail - part 1</title>
+      <link>http://data-handyman.com/blog/python-gmail1/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/python-gmail1/</guid>
+      <description>Gmail and Python In the last post I mentioned that I wanted to organize the data received from the contact form. If you don&amp;rsquo;t remember, the important thing to know is that the form on my Contact page is sent to my Gmail account via a service called Formspree.
+To do this automatically, I will use Python, my favorite programming language. Getting Python to interact with Gmail was not too difficut.</description>
+    </item>
+    
   </channel>
 </rss>

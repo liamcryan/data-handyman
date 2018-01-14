@@ -1,7 +1,7 @@
 
 +++
 author = "Liam Cryan"
-categories = ["programming"]
+categories = ["programming", "python"]
 date = "2017-11-07"
 description = "Getting set up through Google's Calendar API quickstart tutorial"
 featured = ""

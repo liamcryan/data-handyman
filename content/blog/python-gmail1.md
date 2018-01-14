@@ -1,7 +1,7 @@
 
 +++
 author = "Liam Cryan"
-categories = ["programming"]
+categories = ["programming", "python"]
 date = "2017-09-15"
 description = "Required set up for python - gmail interaction"
 featured = ""

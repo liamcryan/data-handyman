@@ -6,10 +6,20 @@
     <description>Recent content in Blog on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pdf Repository Viewer</title>
+      <link>http://data-handyman.com/blog/pdf-repo-viewer/</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/pdf-repo-viewer/</guid>
+      <description>From PPTX to PDF In the last post, I talked about how to programmatically create Power Point Presentations. It was great fun and today&amp;rsquo;s topic is somewhat of a logical continuation.
+The problem with pptx files is that they appear slightly differnetly depending upon the program that opens the file. I found this out as I was neatly crafting the sizes of my charts and tables, only to find that when I opened it with Microsoft PowerPoint they looked very wrong.</description>
+    </item>
     
     <item>
       <title>Python-pptx Tables</title>

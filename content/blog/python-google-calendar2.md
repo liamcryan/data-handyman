@@ -1,7 +1,7 @@
 
 +++
 author = "Liam Cryan"
-categories = ["programming"]
+categories = ["programming", "python"]
 date = "2017-11-17"
 description = "The part where we actually do something"
 featured = ""
