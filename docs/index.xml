@@ -6,10 +6,20 @@
     <description>Recent content on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Taking your first step</title>
+      <link>http://data-handyman.com/blog/taking-your-first-step/</link>
+      <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/taking-your-first-step/</guid>
+      <description>Starting out I really started my career as a data analyst. About a year or so after my start date, a great coworker come along who told me he was learning Python. He was writing scripts that made my VBA scripts look like a joke. So I wanted to learn too.
+This coworker/friend came up with a cool idea to make a little money on the side. We were going to create a Python program to automate some of the tedious aspects of buying and selling products online.</description>
+    </item>
     
     <item>
       <title>PDF File Repository Viewer</title>
@@ -93,17 +103,6 @@ To do this automatically, I will use Python, my favorite programming language. G
       <guid>http://data-handyman.com/blog/formspree/</guid>
       <description>Why Formspree? Creating a form itself isn&amp;rsquo;t too complicated or interesting to me. What interests me about creating forms is the &amp;lsquo;action&amp;rsquo; taken once you press the submit button.
 I want to be able to respond to the person who is contacting me. So, the &amp;lsquo;action&amp;rsquo; I am looking for the form to take is to email. In a later section, I want to go over organizing this data, but the first step is receiving it.</description>
-    </item>
-    
-    <item>
-      <title>Thank you!</title>
-      <link>http://data-handyman.com/thankyou/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/thankyou/</guid>
-      <description>We&amp;rsquo;ll talk soon! Thank you for your message!
-I am really looking forward to reading what you have to say.
-I&amp;rsquo;ll do my best to respond to you quickly, and hopefully we can begin working out how a data handyman can help you.</description>
     </item>
     
     <item>

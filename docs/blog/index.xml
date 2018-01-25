@@ -6,10 +6,20 @@
     <description>Recent content in Blog on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Taking your first step</title>
+      <link>http://data-handyman.com/blog/taking-your-first-step/</link>
+      <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/taking-your-first-step/</guid>
+      <description>Starting out I really started my career as a data analyst. About a year or so after my start date, a great coworker come along who told me he was learning Python. He was writing scripts that made my VBA scripts look like a joke. So I wanted to learn too.
+This coworker/friend came up with a cool idea to make a little money on the side. We were going to create a Python program to automate some of the tedious aspects of buying and selling products online.</description>
+    </item>
     
     <item>
       <title>Pdf Repository Viewer</title>

@@ -12,6 +12,6 @@ I love to learn things that I can use.  It turns out that as a person working wi
 data frequently, learning to program in Python was very useful.  A lot of this blog will talk
 about how to get Python to do cool things with data.  
 
-But data is not life.  I will also talk about family, goals, discipline, health, and other things 
+But there's so much more than data.  I may also talk about family, goals, discipline, health, and other things 
 that help me to enjoy life.
 
