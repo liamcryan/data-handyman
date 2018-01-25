@@ -45,3 +45,8 @@ missing out on my potential.
 
 Becoming a data engineer will take a lot of time and effort, especially not being trained as a software engineer.  But it's what I like doing, and 
 what I want to do.  Follow me on my journey by reading this blog :)
+
+# Side notes
+
+The coworker/friend mentioned above is very interesting.  He has a couple of blogs that are worth checking out, one about [personal finance](http://tenbucksaweek.com) and the 
+other about [data science](http://startatnoon.com).
