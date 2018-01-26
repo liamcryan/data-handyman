@@ -14,7 +14,7 @@ type = "post"
 
 # Starting out
 
-I really started my career as a data analyst.  About a year or so after my start date, a great coworker come along who 
+I really started my career as a data analyst.  About a year or so after my start date, a great coworker came along who 
 told me he was learning Python.  He was writing scripts that made my VBA scripts look like a joke.  So I wanted to learn too.
 
 This coworker/friend came up with a cool idea to make a little money on the side.  We were going to create a Python program to
