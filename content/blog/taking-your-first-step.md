@@ -1,6 +1,6 @@
 +++
 author = "Liam Cryan"
-categories = ["engineering"]
+categories = ["programming"]
 date = "2018-01-25"
 description = "to becoming a data engineer"
 featured = ""

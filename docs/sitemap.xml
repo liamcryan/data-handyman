@@ -90,19 +90,13 @@
   </url>
   
   <url>
-    <loc>http://data-handyman.com/categories/engineering/</loc>
-    <lastmod>2018-01-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://data-handyman.com/tags/google/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://data-handyman.com/categories/programming/</loc>
-    <lastmod>2017-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
