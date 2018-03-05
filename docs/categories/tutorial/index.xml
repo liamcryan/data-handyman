@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on Data Handyman</title>
-    <link>http://data-handyman.com/categories/programming/</link>
-    <description>Recent content in Programming on Data Handyman</description>
+    <title>Tutorial on Data Handyman</title>
+    <link>http://data-handyman.com/categories/tutorial/</link>
+    <description>Recent content in Tutorial on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://data-handyman.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://data-handyman.com/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,27 +18,6 @@
       
       <guid>http://data-handyman.com/blog/python-pptx-workaround-function/</guid>
       <description>The wonderful world of data visualization using PowerPoint If you have ever tried to create PowerPoints using Python, you have probably run into Python-pptx library. It is a great tool for helping you create PowerPoint presentations. You can theoritically replicate anything in any PowerPoint using this library (statement not fact chcecked). In practice, the library has limitations and you may find yourself googling how to do something that the library is not capable of doing.</description>
-    </item>
-    
-    <item>
-      <title>Taking your first step</title>
-      <link>http://data-handyman.com/blog/taking-your-first-step/</link>
-      <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/blog/taking-your-first-step/</guid>
-      <description>Starting out I really started my career as a data analyst. About a year or so after my start date, a great coworker came along who told me he was learning Python. He was writing scripts that made my VBA scripts look like a joke. So I wanted to learn too.
-This coworker/friend came up with a cool idea to make a little money on the side. We were going to create a Python program to automate some of the tedious aspects of buying and selling products online.</description>
-    </item>
-    
-    <item>
-      <title>Python-pptx Tables</title>
-      <link>http://data-handyman.com/blog/python-pptx/</link>
-      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/blog/python-pptx/</guid>
-      <description>Power Point is where it&amp;rsquo;s at people Something like this happened recently:  A weekly PowerPoint presentation that relies on some data processing is created. The process of creating this PowerPoint is a mixture of manual and automated methods. My boss says,
-&amp;ldquo;Hey, we have been asked to put the contents of the weekly PowerPoint presentation into a mobile app.&amp;rdquo;
-&amp;ldquo;How exciting,&amp;rdquo; I exclaim&amp;hellip;but I realize our current data flow is not good enough.</description>
     </item>
     
     <item>
@@ -83,16 +62,6 @@ Finally! Let&amp;rsquo;s get to the data! I want to go over how to get a Formspr
       <guid>http://data-handyman.com/blog/python-gmail1/</guid>
       <description>Gmail and Python In the last post I mentioned that I wanted to organize the data received from the contact form. If you don&amp;rsquo;t remember, the important thing to know is that the form on my Contact page is sent to my Gmail account via a service called Formspree.
 To do this automatically, I will use Python, my favorite programming language. Getting Python to interact with Gmail was not too difficut.</description>
-    </item>
-    
-    <item>
-      <title>Formspree?</title>
-      <link>http://data-handyman.com/blog/formspree/</link>
-      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://data-handyman.com/blog/formspree/</guid>
-      <description>Why Formspree? Creating a form itself isn&amp;rsquo;t too complicated or interesting to me. What interests me about creating forms is the &amp;lsquo;action&amp;rsquo; taken once you press the submit button.
-I want to be able to respond to the person who is contacting me. So, the &amp;lsquo;action&amp;rsquo; I am looking for the form to take is to email. In a later section, I want to go over organizing this data, but the first step is receiving it.</description>
     </item>
     
   </channel>

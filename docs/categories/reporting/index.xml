@@ -6,10 +6,19 @@
     <description>Recent content in Reporting on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/categories/reporting/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python-pptx workaround functions tutorial</title>
+      <link>http://data-handyman.com/blog/python-pptx-workaround-function/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/python-pptx-workaround-function/</guid>
+      <description>The wonderful world of data visualization using PowerPoint If you have ever tried to create PowerPoints using Python, you have probably run into Python-pptx library. It is a great tool for helping you create PowerPoint presentations. You can theoritically replicate anything in any PowerPoint using this library (statement not fact chcecked). In practice, the library has limitations and you may find yourself googling how to do something that the library is not capable of doing.</description>
+    </item>
     
     <item>
       <title>PDF File Repository Viewer</title>
