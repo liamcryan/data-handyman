@@ -123,7 +123,7 @@ print('debugging here to analyze the 'chart' object')
 
 ## The hard part
 
-I would say the hard part of this process is finding the correct element containing the xml you need to change.  Look in 
+We need to find the correct element containing the xml you need to change.  Look in 
 the chart object for underlying xml until you have found the ```<c/tx>``` and ```<c:marker>``` tags.  
 
 You can start simple by looking at ```chart._element.xml```.  This will be a string of all of the xml elements 
