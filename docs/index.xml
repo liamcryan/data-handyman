@@ -6,10 +6,20 @@
     <description>Recent content on Data Handyman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://data-handyman.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reading and Writing</title>
+      <link>http://data-handyman.com/blog/python-read-write-files/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://data-handyman.com/blog/python-read-write-files/</guid>
+      <description>Background I have taken for granted the ability to read and write files in Python. There are libraries which make this task very easy, and it is easy to not really understand what is going on. This purpose of this post is to help me to better understand reading and writing to files. Let&amp;rsquo;s start with the built in Python function, open.
+open open is a built in Python function which basically opens a connection to your file and let&amp;rsquo;s you interact with the data in the file.</description>
+    </item>
     
     <item>
       <title>Python-pptx workaround functions tutorial</title>

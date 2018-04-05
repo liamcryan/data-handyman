@@ -1,17 +1,11 @@
-
-
-
-    
-
-
-
-
 <!DOCTYPE HTML>
 
 <html>
     <head>
         
-            <title>2 step authentication - Data Handyman</title>
+            
+                <title>Reading and Writing</title>
+            
         
 
         <meta charset="utf-8" />
@@ -21,22 +15,24 @@
 
 
         
+            <meta name="author" content="Liam Cryan">
         
-            
-                <meta name="description" content="A data handyman&#39;s blog">
-            
+        
+            <meta name="description" content="How to read and write files in Python">
         
 
-        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="2 step authentication"/>
-<meta name="twitter:description" content="A data handyman&#39;s blog"/>
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Reading and Writing"/>
+<meta name="twitter:description" content="How to read and write files in Python"/>
 
-        <meta property="og:title" content="2 step authentication" />
-<meta property="og:description" content="A data handyman&#39;s blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://data-handyman.com/tags/2-step-authentication/" />
+        <meta property="og:title" content="Reading and Writing" />
+<meta property="og:description" content="How to read and write files in Python" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://data-handyman.com/blog/python-read-write-files/" />
 
 
 
+<meta property="article:published_time" content="2018-04-05T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-04-05T00:00:00&#43;00:00"/>
 
 
 
@@ -49,9 +45,16 @@
 
 
         
-<meta itemprop="name" content="2 step authentication">
-<meta itemprop="description" content="A data handyman&#39;s blog">
+<meta itemprop="name" content="Reading and Writing">
+<meta itemprop="description" content="How to read and write files in Python">
 
+
+<meta itemprop="dateModified" content="2018-04-05T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="517">
+
+
+
+<meta itemprop="keywords" content="" />
 
         
 
@@ -93,9 +96,10 @@ ga('send', 'pageview');
       <div id="wrapper">
 
     
+    
 <header id="header">
     
-      <h1><a href="/">2 step authentication</a></h1>
+      <h1><a href="/">blog</a></h1>
     
 
     <nav class="links">
@@ -129,6 +133,10 @@ ga('send', 'pageview');
     </nav>
     <nav class="main">
         <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
             
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
@@ -239,7 +247,7 @@ ga('send', 'pageview');
         
 
         <a href="/blog/python-read-write-files/" class="image featured">
-            <img src="/img/2018/04/" alt="">
+            <img src="/img/2018/042018/04/" alt="">
         </a>
     
 
@@ -390,25 +398,432 @@ ga('send', 'pageview');
         
 </section>
 
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f&text=Reading%20and%20Writing&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//plus.google.com/share?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f&title=Reading%20and%20Writing" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f&title=Reading%20and%20Writing" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f&title=Reading%20and%20Writing" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f&description=Reading%20and%20Writing" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Liam%20Cryan&body=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+        </ul>
+    </section>
+</section>
+
     
     <div id="main">
         
         
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/blog/python-read-write-files/">Reading and Writing</a></h1>
             
         
-            
+        
+            <p>How to read and write files in Python</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2018-04-05'>
+            April 5, 2018</time>
+        <span class="author">Liam Cryan</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f&text=Reading%20and%20Writing&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//plus.google.com/share?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f&title=Reading%20and%20Writing" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f&title=Reading%20and%20Writing" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f&title=Reading%20and%20Writing" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f&description=Reading%20and%20Writing" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Liam%20Cryan&body=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/python-read-write-files/" class="image featured">
+            <img src="/img/2018/04/" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<h1 id="background">Background</h1>
+
+<p>I have taken for granted the ability to read and write files in Python.  There
+are libraries which make this task very easy, and it is easy to not really
+understand what is going on.  This purpose of this post is to help me to
+better understand reading and writing to files.  Let&rsquo;s start with the built
+in Python function, open.</p>
+
+<h2 id="open">open</h2>
+
+<p>open is a built in Python function which basically opens a connection to your
+file and let&rsquo;s you interact with the data in the file.  Here are some of the
+arguments to the function:</p>
+
+<p><strong>file</strong>: a path-like object</p>
+
+<p><strong>mode</strong>: optional string specifying the mode in which the file is opened</p>
+
+<blockquote>
+<ul>
+<li>&lsquo;r&rsquo;: read in text mode</li>
+<li>&lsquo;w&rsquo;: write in text mode, truncate file first</li>
+<li>&lsquo;b&rsquo;: binary mode</li>
+<li>&rsquo;t&rsquo;: text mode</li>
+<li>&rsquo;+&rsquo;: open for reading and writing</li>
+</ul>
+
+<p>&lsquo;r&rsquo; is a synonym for &lsquo;rt&rsquo; (read in text mode)</p>
+
+<p>&lsquo;w+b&rsquo; opens and truncates to 0 bytes for reading/writing</p>
+
+<p>&lsquo;r+b&rsquo; opens but does not truncate for reading/writing</p>
+</blockquote>
+
+<p><strong>newline</strong>: controls how universal newlines mode works.</p>
+
+<blockquote>
+<p>can be None, &ldquo;, &lsquo;\n&rsquo;, &lsquo;\r&rsquo;, &lsquo;\rn&rsquo;</p>
+</blockquote>
+
+<h1 id="experimenting">Experimenting</h1>
+
+<p>I want to write text to a file that would resemble something seen in a csv.  I
+can use the write method to do this:</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; f = open(&quot;f&quot;, &quot;wt&quot;)
+&gt;&gt;&gt; f.write(&quot;apples,bananas,pears\n1,2,3\n4,5,6\n&quot;)
+&gt;&gt;&gt; f.close()
+</code></pre>
+
+<p>My file now looks like this when I open it:</p>
+
+<pre><code class="language-python">apples,bananas,pears
+1,2,3
+4,5,6
+</code></pre>
+
+<p>Here is what that looks like reading from Python using the read method:</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; f.open(&quot;f&quot;, &quot;rt&quot;)
+&gt;&gt;&gt; f.read()
+&quot;apples,bananas,pears\n1,2,3\n4,5,6\n&quot;
+</code></pre>
+
+<p>So it looks like the read method reads the entire file.  If your file is really
+big and you don&rsquo;t want to store all of your data in memory, you could try looping
+through each line.</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; f.open(&quot;f&quot;, &quot;rt&quot;)
+&gt;&gt;&gt; for i in f:
+&gt;&gt;&gt;   print(i)
+&quot;apples,bananas,pears&quot;
+
+&quot;1,2,3&quot;
+
+&quot;4,5,6&quot;
+
+</code></pre>
+
+<p>You could even get fancy and read in the headers (&ldquo;apples,bananas,pears&rdquo;) or
+perform operations on the specific values.</p>
+
+<p>Let&rsquo;s try accessing specifics:</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; f.open(&quot;f&quot;, &quot;rt&quot;)
+&gt;&gt;&gt; for i in f:
+&gt;&gt;&gt;   print(i[:-1].split(&quot;,&quot;))
+['apples', 'bananas', 'pears']
+['1', '2', '3']
+['4', '5', '6']
+</code></pre>
+
+<p>This is really cool!  I am not even using the csv module, but it would appear
+that I am able to reading a csv!</p>
+
+<p>The final thing I would like to do with my file is to perform operations on the
+values.  How about square each number.  Then save the results to another file.</p>
+
+<p>This took a little bit of trial and error but eventually came up with this:</p>
+
+<pre><code class="language-python">f = open(&quot;f&quot;, &quot;rt&quot;)
+g = open(&quot;g&quot;, &quot;wt&quot;)
+for i in f:
+    for j, w in enumerate(i[:-1].split(&quot;,&quot;)):
+        try:
+            if j == len(i[:-1].split(&quot;,&quot;)) - 1:
+                g.write(str(int(w) ** 2))
+            else:
+                g.write(str(int(w) ** 2) + &quot;,&quot;)
+        except ValueError:
+            if j == len(i[:-1].split(&quot;,&quot;)) - 1:
+                g.write(w)
+            else:
+                g.write(w + &quot;,&quot;)
+    g.write(&quot;\n&quot;)
+f.close()
+g.close()
+</code></pre>
+
+<p>Checking the file on my computer called &ldquo;g&rdquo;, I see:</p>
+
+<pre><code class="language-python">apples,bananas,pears
+1,4,9
+16,25,36
+</code></pre>
+
+<h1 id="accomplishments">Accomplishments</h1>
+
+<p>Today I was able to write and read a csv file without importing any libraries,
+only using built in Python functions.  I think this is really cool!</p>
+
+<h1 id="next-steps">Next steps</h1>
+
+<p>Take a look at the csv module and learn why it is worth using.</p>
+
+<p>Read files stored as byte strings.</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+    
         
 
         
-<ul class="actions pagination">
-    
-        <li><a href="#" class="disabled button big previous">Previous Page</a></li>
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
     
 
     
-        <li><a href="#" class="disabled button big next">Next Page</a></li>
+    
+        <li><a href='/categories/programming'>programming</a></li>
     
 </ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+      <h2>Say something</h2>
+
+  <form class="post-new-comment" method="POST" action="https://api.staticman.net/v2/entry/liamcryan/data-handyman/master/comments">
+
+    <input type="hidden" name="options[redirect]" value="http://data-handyman.com//blog/python-read-write-files/">
+    <input type="hidden" name="options[entryId]" value="7ff4c5d1468cc90b3d50f7eb5adcaf79">
+    <input required name="fields[name]" type="text" placeholder="Your name (Required)">
+    <input name="fields[website]" type="text" placeholder="Your website">
+    <input required name="fields[email]" type="email" placeholder="Your email address (Required for Gravatar)">
+    <textarea required name="fields[body]" placeholder='Your message. Feel free to use Markdown (Google "Markdown Cheat Sheet").' rows="10"></textarea>
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="6LeUxz8UAAAAAPx7Z6JcI-BiUr0rpMSXJs8Y4jcQ">
+    <input type="hidden" name="options[reCaptcha][secret]" value="JUK5Q5EeEZcTJ7NNOr8bOUBuZtNQqUg/EePxIq5Yz8G3ia7hyd5GqUGcKWTHEs1qpETixT0GxSzh1uDPpyp&#43;HL0t6snqwIZ0Grte1y55MvqW2XDa/lclZqo/ebA&#43;JKm7tIDgwaBFbnvoOdOwJOJwDdbN2pTAVd/NW6icX3&#43;UQY0=">
+    <div class="g-recaptcha" data-sitekey="6LeUxz8UAAAAAPx7Z6JcI-BiUr0rpMSXJs8Y4jcQ"></div>
+    <input type="submit" value="Submit">
+  </form>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<h2>Comments</h2>
+
+
+
+
+
+
+  
+
+  
+
+
+
+  <p>Nothing yet.</p>
+
+
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="/blog/python-pptx-workaround-function/"
+                class="button big previous">Python-pptx workaround functions tutorial</a></li>
+    
+
+    
+</ul>
+
 
     </div>
     
@@ -432,7 +847,7 @@ ga('send', 'pageview');
       <ul class="icons">
         
           <li>
-            <a href="http://data-handyman.com/tags/2-step-authentication/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
           </li>
         
         
@@ -796,7 +1211,7 @@ ga('send', 'pageview');
       <ul class="icons">
         
           <li>
-            <a href="http://data-handyman.com/tags/2-step-authentication/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
           </li>
         
         
