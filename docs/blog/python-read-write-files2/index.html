@@ -1,17 +1,11 @@
-
-
-
-    
-
-
-
-
 <!DOCTYPE HTML>
 
 <html>
     <head>
         
-            <title>About Me - Data Handyman</title>
+            
+                <title>Reading and Writing (2)</title>
+            
         
 
         <meta charset="utf-8" />
@@ -21,35 +15,54 @@
 
 
         
+            <meta name="author" content="Liam Cryan">
         
-            
-                <meta name="description" content="A data handyman&#39;s blog">
-            
         
-
+            <meta name="description" content="I can read and write files.  Why do I need the csv module?">
         
-        <meta property="og:title" content="About Me" />
-<meta property="og:description" content="A data handyman&#39;s blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://data-handyman.com/about/" />
-
-
-
-<meta property="og:updated_time" content="2018-01-11T00:00:00&#43;00:00"/>
-
-
-
-
-
-
-
-
-
 
         
-<meta itemprop="name" content="About Me">
-<meta itemprop="description" content="A data handyman&#39;s blog">
 
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="Reading and Writing (2)"/>
+<meta name="twitter:title" content="Reading and Writing (2)"/>
+<meta name="twitter:description" content="I can read and write files.  Why do I need the csv module?"/>
+
+
+        <meta property="og:title" content="Reading and Writing (2)" />
+<meta property="og:description" content="I can read and write files.  Why do I need the csv module?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://data-handyman.com/blog/python-read-write-files2/" />
+
+
+
+<meta property="article:published_time" content="2018-04-05T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-04-05T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Reading and Writing (2)">
+<meta itemprop="description" content="I can read and write files.  Why do I need the csv module?">
+
+
+<meta itemprop="dateModified" content="2018-04-05T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="537">
+
+
+
+<meta itemprop="keywords" content="learning,programming,python,reporting,tutorial,2 step authentication,app password,google," />
 
         
 
@@ -90,10 +103,11 @@ ga('send', 'pageview');
       
       <div id="wrapper">
 
-
+    
+    
 <header id="header">
     
-      <h1><a href="/">about</a></h1>
+      <h1><a href="/">blog</a></h1>
     
 
     <nav class="links">
@@ -127,6 +141,10 @@ ga('send', 'pageview');
     </nav>
     <nav class="main">
         <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
             
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
@@ -338,6 +356,9 @@ ga('send', 'pageview');
 
 
   
+  
+    
+  
 
 
         
@@ -345,7 +366,7 @@ ga('send', 'pageview');
         
 
         <a href="/blog/taking-your-first-step/" class="image featured">
-            <img src="/img//" alt="">
+            <img src="/img/2018/01/" alt="">
         </a>
     
 
@@ -406,34 +427,407 @@ ga('send', 'pageview');
         
 </section>
 
-
-<div id="main">
-  <article class="post">
-    <header>
-        <div class="title">
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
             
-                <h2><a href="/about/">About Me</a></h2>
-            
-            
-        </div>
-    </header>
-    <div id="content">
-      <p>I thought starting a blog would be fun.  I like to work with data too, and I&rsquo;ve always
-thought of myself as a resourceful person.  I feel like a handyman is resourceful as well; maybe
-not always having the best tool for the job, but being creative enough to figure out how
-to get the job done.  Apparently this led to the term &lsquo;data handyman&rsquo;.</p>
 
-<p>I love to learn things that I can use.  It turns out that as a person working with
-data frequently, learning to program in Python was very useful.  A lot of this blog will talk
-about how to get Python to do cool things with data.</p>
 
-<p>But there&rsquo;s so much more than data.  I may also talk about family, goals, discipline, health, and other things
-that help me to enjoy life.</p>
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f&text=Reading%20and%20Writing%20%282%29&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+<li>
+  <a href="//plus.google.com/share?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f&title=Reading%20and%20Writing%20%282%29" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f&title=Reading%20and%20Writing%20%282%29" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f&title=Reading%20and%20Writing%20%282%29" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f&description=Reading%20and%20Writing%20%282%29" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+<li>
+  <a href="mailto:?subject=Check out this post by Liam%20Cryan&body=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/blog/python-read-write-files2/">Reading and Writing (2)</a></h1>
+            
+        
+        
+            <p>I can read and write files.  Why do I need the csv module?</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2018-04-05'>
+            April 5, 2018</time>
+        <span class="author">Liam Cryan</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f&text=Reading%20and%20Writing%20%282%29&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+<li>
+  <a href="//plus.google.com/share?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f&title=Reading%20and%20Writing%20%282%29" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f&title=Reading%20and%20Writing%20%282%29" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f&title=Reading%20and%20Writing%20%282%29" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f&description=Reading%20and%20Writing%20%282%29" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+<li>
+  <a href="mailto:?subject=Check out this post by Liam%20Cryan&body=http%3a%2f%2fdata-handyman.com%2fblog%2fpython-read-write-files2%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/python-read-write-files2/" class="image featured">
+            <img src="/img/2018/04/" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<h1 id="the-csv-module">The csv module</h1>
+
+<p>I want to take a look at understanding the importance of
+the csv module, as well as when and why it should be used.</p>
+
+<h1 id="creating-a-csv-file-the-old-fashioned-way">Creating a csv file (the old fashioned way)</h1>
+
+<p>I am going to use the code below to create a csv file, f.  You can
+copy and paste this code below to follow along.  If you remember
+the last post, this should look very familiar.  It is the same code.</p>
+
+<pre><code class="language-python">f = open(&quot;f&quot;, &quot;wt&quot;)
+f.write(&quot;apples,bananas,pears\n1,2,3\n4,5,6\n&quot;)
+f.close()
+</code></pre>
+
+<h1 id="reading">reading</h1>
+
+<p>I want to view the contents of each row of my csv file both
+with using the csv module and without using the csv module.  Then
+it should be easy to compare differences.</p>
+
+<p>With the csv module:</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; import csv
+&gt;&gt;&gt; f = open(&quot;f&quot;, &quot;rt&quot;)
+&gt;&gt;&gt; reader = csv.reader(f)
+&gt;&gt;&gt; for row in reader:
+&gt;&gt;&gt;     print(row)
+&gt;&gt;&gt; f.close()
+['apples', 'bananas', 'pears']
+['1', '2', '3']
+['4', '5', '6']
+</code></pre>
+
+<p>Without the csv module:</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; f.open(&quot;f&quot;, &quot;rt&quot;)
+&gt;&gt;&gt; for row in f:
+&gt;&gt;&gt;   print(row[:-1].split(&quot;,&quot;))
+&gt;&gt;&gt; f.close()
+['apples', 'bananas', 'pears']
+['1', '2', '3']
+['4', '5', '6']
+</code></pre>
+
+<p>The code looks very similar in both situations.  The main difference is without
+using the csv module, you are required to split the row at the separator values to
+produce the list.  I am sure there would be more differences if I wasn&rsquo;t using
+a well formed csv file.</p>
+
+<h1 id="writing">writing</h1>
+
+<p>Using a similar approach to the previous post, I want to read the contents of
+my file, square each integer, and then save to a new file.  There should be
+some differences here as well, and having both approaches handy will highlight them.</p>
+
+<p>With the csv module:</p>
+
+<pre><code class="language-python">f = open(&quot;f&quot;, &quot;rt&quot;)
+g = open(&quot;g&quot;, &quot;wt&quot;)
+
+reader = csv.reader(f)
+writer = csv.writer(g)
+
+for row in reader:
+    for i, value in enumerate(row):
+        try:
+            row[i] = int(value) ** 2
+        except ValueError:
+            pass
+            
+    writer.writerow(row)
+
+g.close()
+f.close()
+</code></pre>
+
+<p>Without the csv module:</p>
+
+<pre><code class="language-python">f = open(&quot;f&quot;, &quot;rt&quot;)
+g = open(&quot;g&quot;, &quot;wt&quot;)
+
+for row in f:
+    split_row = row[:-1].split(&quot;,&quot;)
+    for i, value in enumerate(split_row):
+        try:
+            split_row[i] = str(int(value) ** 2)
+        except ValueError:
+            pass
+            
+    for i in range(len(split_row)-1, 0, -1):
+        split_row.insert(i, &quot;,&quot;)
+    split_row.extend(&quot;\n&quot;)
+    g.writelines(split_row)
+    
+f.close()
+g.close()
+</code></pre>
+
+<p>In my example, there are more differences when wirting to a csv than when reading.  If you
+don&rsquo;t use the csv module, then you need to split the row at a separator value.  Then you need to
+format the resulting row so that it can be written.  This means you need to convert
+non-strings to strings and place commas (&ldquo;,&rdquo;) and line breaks (&rdquo;\n) appropriately.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>It is very intersting to see why someone would want to write a csv module.  There is a
+lot of routine work to be done to correctly format your file as a csv.  I will definitely
+be using the csv module when reading and writing csv files in the future.</p>
+
+<h1 id="next-steps">Next steps</h1>
+
+<p>I am curious how to read a file that is not on your computer.  The case I am thinking of is
+obtaining a file from an email attachment, and this file is returned as a sequence of bytes.</p>
+
+<p>How can I read a sequence of bytes that I know is a csv file and begin to perform operations
+such as squaring each number?  I&rsquo;ll let you know.</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/programming'>programming</a></li>
+    
+        <li><a href='/categories/learning'>learning</a></li>
+    
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+      <h2>Say something</h2>
+
+  <form class="post-new-comment" method="POST" action="https://api.staticman.net/v2/entry/liamcryan/data-handyman/master/comments">
+
+    <input type="hidden" name="options[redirect]" value="http://data-handyman.com//blog/python-read-write-files2/">
+    <input type="hidden" name="options[entryId]" value="bfc467813f899311f3abe57bc730a115">
+    <input required name="fields[name]" type="text" placeholder="Your name (Required)">
+    <input name="fields[website]" type="text" placeholder="Your website">
+    <input required name="fields[email]" type="email" placeholder="Your email address (Required for Gravatar)">
+    <textarea required name="fields[body]" placeholder='Your message. Feel free to use Markdown (Google "Markdown Cheat Sheet").' rows="10"></textarea>
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="6LeUxz8UAAAAAPx7Z6JcI-BiUr0rpMSXJs8Y4jcQ">
+    <input type="hidden" name="options[reCaptcha][secret]" value="JUK5Q5EeEZcTJ7NNOr8bOUBuZtNQqUg/EePxIq5Yz8G3ia7hyd5GqUGcKWTHEs1qpETixT0GxSzh1uDPpyp&#43;HL0t6snqwIZ0Grte1y55MvqW2XDa/lclZqo/ebA&#43;JKm7tIDgwaBFbnvoOdOwJOJwDdbN2pTAVd/NW6icX3&#43;UQY0=">
+    <div class="g-recaptcha" data-sitekey="6LeUxz8UAAAAAPx7Z6JcI-BiUr0rpMSXJs8Y4jcQ"></div>
+    <input type="submit" value="Submit">
+  </form>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<h2>Comments</h2>
+
+
+
+
+
+
+  
+
+  
+
+
+
+  <p>Nothing yet.</p>
+
+
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="/blog/python-read-write-files/"
+                class="button big previous">Reading and Writing</a></li>
+    
+
+    
+</ul>
+
 
     </div>
-  </article>
-</div>
-
+    
 <section id="sidebar">
 
   
@@ -454,7 +848,7 @@ that help me to enjoy life.</p>
       <ul class="icons">
         
           <li>
-            <a href="http://data-handyman.com/about/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
           </li>
         
         
@@ -575,9 +969,6 @@ that help me to enjoy life.</p>
 
 
   
-  
-    
-  
 
 
         
@@ -585,7 +976,7 @@ that help me to enjoy life.</p>
         
 
         <a href="/blog/python-read-write-files2/" class="image featured">
-            <img src="/img/2018/04/" alt="">
+            <img src="/img//" alt="">
         </a>
     
 
@@ -626,7 +1017,7 @@ that help me to enjoy life.</p>
         
 
         <a href="/blog/python-read-write-files/" class="image featured">
-            <img src="/img/2018/04/" alt="">
+            <img src="/img/2018/042018/04/" alt="">
         </a>
     
 
@@ -667,7 +1058,7 @@ that help me to enjoy life.</p>
         
 
         <a href="/blog/python-pptx-workaround-function/" class="image featured">
-            <img src="/img/2018/03/" alt="">
+            <img src="/img/2018/032018/03/" alt="">
         </a>
     
 
@@ -856,7 +1247,7 @@ that help me to enjoy life.</p>
       <ul class="icons">
         
           <li>
-            <a href="http://data-handyman.com/about/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
           </li>
         
         

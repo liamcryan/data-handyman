@@ -1,7 +1,7 @@
 +++
 author = "Liam Cryan"
-categories = ["programming"]
-date = "2018-04-05"
+categories = ["programming", "learning"]
+date = "2018-04-04"
 description = "How to read and write files in Python"
 featured = ""
 featuredalt = ""
